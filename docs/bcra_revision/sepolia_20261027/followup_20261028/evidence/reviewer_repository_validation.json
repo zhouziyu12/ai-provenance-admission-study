@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-28T00:32:47.444555+00:00",
+  "repository": "https://github.com/zhouziyu12/BCRA-D-26-00793",
+  "sourceSnapshot": "fresh repository; no development Git history",
+  "npmCiPassed": true,
+  "artifactChecksumChecks": 8,
+  "freshGroth16ProofVerified": true,
+  "publicSignalChecksPassed": true,
+  "r1csPtauZkeyConsistencyPassed": true,
+  "receiptEvidenceAssertionsPassed": 37584,
+  "receiptTransactionPairs": 2496,
+  "measuredRows": 1975,
+  "statisticalCsvExactMatches": 10,
+  "controlledGasReplayCasesMatched": 4,
+  "standaloneHandoverGenerationPassed": true,
+  "readmeAndHandoverFileLinksPassed": true,
+  "currentAndHistoricallyExposedCredentialLiteralScanPassed": true,
+  "scope": "Local pre-publication verification. Not an external audit, trusted-setup ceremony attestation, or dependency-security certification."
+}

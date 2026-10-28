@@ -1,0 +1,127 @@
+{
+  "ungated": [
+    {
+      "buildInfoFile": "f38be6cda4922d06a4434a8aeeea2674.json",
+      "solcVersion": "0.8.19",
+      "solcLongVersion": "0.8.19-solcjs",
+      "settings": {
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "viaIR": true
+      },
+      "sourceSha256": "fbbca37361ad1850788e68d2030345927a6a77580a3953cbfb9dd321338ee4e4",
+      "octoberSourceIdentical": true,
+      "deployedBytesIdentical": true,
+      "deployedBytesIdenticalAfterImmutableMask": true,
+      "immutableReferences": [],
+      "executableIdenticalAfterImmutableAndMetadataNormalization": true,
+      "augustRuntimeSha256": "ca3fcd229f298cc70837b173a3b30911cf95f515e28c5d53d1d54f91d055173b",
+      "octoberRuntimeSha256": "ca3fcd229f298cc70837b173a3b30911cf95f515e28c5d53d1d54f91d055173b"
+    }
+  ],
+  "sig": [
+    {
+      "buildInfoFile": "944de8d7b1c4348b90d6175d2cc474c8.json",
+      "solcVersion": "0.8.19",
+      "solcLongVersion": "0.8.19-solcjs",
+      "settings": {
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "viaIR": true
+      },
+      "sourceSha256": "bbd55f448862b2fcc8d436f37d13ed6b8c2b17366a3c053ac2bea3d823a2d28a",
+      "octoberSourceIdentical": true,
+      "deployedBytesIdentical": false,
+      "deployedBytesIdenticalAfterImmutableMask": false,
+      "immutableReferences": [
+        {
+          "length": 32,
+          "start": 4158
+        },
+        {
+          "length": 32,
+          "start": 4345
+        },
+        {
+          "length": 32,
+          "start": 4104
+        },
+        {
+          "length": 32,
+          "start": 4237
+        },
+        {
+          "length": 32,
+          "start": 4275
+        },
+        {
+          "length": 32,
+          "start": 2040
+        },
+        {
+          "length": 32,
+          "start": 2081
+        },
+        {
+          "length": 32,
+          "start": 422
+        },
+        {
+          "length": 32,
+          "start": 2306
+        }
+      ],
+      "executableIdenticalAfterImmutableAndMetadataNormalization": false,
+      "augustRuntimeSha256": "818303acaa8ab3a325275c884d68e36bbaa7347f1fc71da3cd1d484cebccfbdf",
+      "octoberRuntimeSha256": "6dcfb456050c9d25c34e34ae0284a7caafde33bb17fdb9768c0f7a4684b820dd"
+    }
+  ],
+  "zk": [
+    {
+      "buildInfoFile": "5a839540df012bb4423e750d5a208ebb.json",
+      "solcVersion": "0.8.19",
+      "solcLongVersion": "0.8.19-solcjs",
+      "settings": {
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "viaIR": true
+      },
+      "sourceSha256": "3a576507967c659c13b185c8369e4a9347e8bad3ad123c6022af4668e61eb1c7",
+      "octoberSourceIdentical": true,
+      "deployedBytesIdentical": true,
+      "deployedBytesIdenticalAfterImmutableMask": true,
+      "immutableReferences": [],
+      "executableIdenticalAfterImmutableAndMetadataNormalization": true,
+      "augustRuntimeSha256": "731b9d36d9f4eb20b424dbc8859bcfc84cef95f59648834e78d14c69ebe5f3a9",
+      "octoberRuntimeSha256": "731b9d36d9f4eb20b424dbc8859bcfc84cef95f59648834e78d14c69ebe5f3a9"
+    }
+  ],
+  "passive": [
+    {
+      "buildInfoFile": "f38be6cda4922d06a4434a8aeeea2674.json",
+      "solcVersion": "0.8.19",
+      "solcLongVersion": "0.8.19-solcjs",
+      "settings": {
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "viaIR": true
+      },
+      "sourceSha256": "cbb1ba115eb969e4e1c5eff5fd696b9bb53e7bfe5e914373495ff47262fe3483",
+      "octoberSourceIdentical": true,
+      "deployedBytesIdentical": true,
+      "deployedBytesIdenticalAfterImmutableMask": true,
+      "immutableReferences": [],
+      "executableIdenticalAfterImmutableAndMetadataNormalization": true,
+      "augustRuntimeSha256": "4608b85b876d64ce0cbf66e2ece448af5279b41aad65a44b55299d1c9bfdfc8c",
+      "octoberRuntimeSha256": "4608b85b876d64ce0cbf66e2ece448af5279b41aad65a44b55299d1c9bfdfc8c"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "runId": "2026-10-26T20-25-47-088Z",
+  "network": "sepolia",
+  "chainId": 11155111,
+  "variants": [
+    "passive",
+    "ungated",
+    "sig",
+    "zk",
+    "signed"
+  ],
+  "securityTrials": 5,
+  "baselineTrialsPerOperation": 10,
+  "metadataBytes": [
+    256,
+    512,
+    1024,
+    2048,
+    4096
+  ],
+  "metadataTrialsPerCondition": 10,
+  "lifecycleHistoriesPerVariant": 3,
+  "lifecycleEventsPerHistory": 64,
+  "individualCheckAblations": 12,
+  "sdkOwners": 2,
+  "sdkModelSeries": 3,
+  "sdkVersionsPerSeries": 3,
+  "sdkNewIPFSUploads": 9,
+  "measuredTransactions": 1975,
+  "allMeasuredTransactionsActuallyBroadcast": true
+}

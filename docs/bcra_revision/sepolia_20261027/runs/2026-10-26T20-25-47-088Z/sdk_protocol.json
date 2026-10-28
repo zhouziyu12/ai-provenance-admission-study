@@ -1,0 +1,10 @@
+{
+  "chain": "sepolia",
+  "chainId": 11155111,
+  "owners": 2,
+  "series": 3,
+  "versionsPerSeries": 3,
+  "path": "Python SHA-256 -> actual Python SDK Pinata upload -> real Groth16 proof -> Python SDK owner signing -> actual signed_zk HTTP router -> Sepolia transaction -> contract state readback",
+  "identity": "Isolated bearer-token fixture mapping to actual registered owners; production login issuance is not evaluated",
+  "artifactStorage": "Nine actual synthetic byte artifacts uploaded through the Python SDK to Pinata/IPFS; service CID and local SHA-256 recorded for each"
+}

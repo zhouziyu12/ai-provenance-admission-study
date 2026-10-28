@@ -1,0 +1,51 @@
+[
+  {
+    "eip": 7773,
+    "url": "https://raw.githubusercontent.com/ethereum/EIPs/master/EIPS/eip-7773.md",
+    "sha256": "98d469425c8def4074fdcc6cac967c83aa438805e19792dcbf9086de82f67b03",
+    "retrievedAt": "2026-10-27T14:36:18.334246+00:00",
+    "license": "CC0, as stated in each EIP"
+  },
+  {
+    "eip": 2780,
+    "url": "https://raw.githubusercontent.com/ethereum/EIPs/master/EIPS/eip-2780.md",
+    "sha256": "dd86d5ddef5c5eae38db787302df44cb2a183c5a0b36f63b48c566ad1a5913cf",
+    "retrievedAt": "2026-10-27T14:36:19.264473+00:00",
+    "license": "CC0, as stated in each EIP"
+  },
+  {
+    "eip": 7778,
+    "url": "https://raw.githubusercontent.com/ethereum/EIPs/master/EIPS/eip-7778.md",
+    "sha256": "168a98d6d6a1b1a637bd7f2ef16f272e27ef456f6a05bab633528089cebb43d7",
+    "retrievedAt": "2026-10-27T14:36:19.996563+00:00",
+    "license": "CC0, as stated in each EIP"
+  },
+  {
+    "eip": 7976,
+    "url": "https://raw.githubusercontent.com/ethereum/EIPs/master/EIPS/eip-7976.md",
+    "sha256": "e8ca247a5565f78af284f1211f3e24d37813f892b73058c79c53562914204859",
+    "retrievedAt": "2026-10-27T14:36:20.697960+00:00",
+    "license": "CC0, as stated in each EIP"
+  },
+  {
+    "eip": 7981,
+    "url": "https://raw.githubusercontent.com/ethereum/EIPs/master/EIPS/eip-7981.md",
+    "sha256": "f7dc9e4c9b137619ecdc029d0a294d94664a368d52e842175716fd43eb6219fd",
+    "retrievedAt": "2026-10-27T14:36:21.424439+00:00",
+    "license": "CC0, as stated in each EIP"
+  },
+  {
+    "eip": 8037,
+    "url": "https://raw.githubusercontent.com/ethereum/EIPs/master/EIPS/eip-8037.md",
+    "sha256": "37abe522c5dee68a47a27db6f7b88a71da5b66c8a72ebc601c467940b577b715",
+    "retrievedAt": "2026-10-27T14:36:22.245082+00:00",
+    "license": "CC0, as stated in each EIP"
+  },
+  {
+    "eip": 8038,
+    "url": "https://raw.githubusercontent.com/ethereum/EIPs/master/EIPS/eip-8038.md",
+    "sha256": "ad09e7c9a7c78855b00e793109056e6d30022bf4bbf0e237e757226de0e544e2",
+    "retrievedAt": "2026-10-27T14:36:23.193213+00:00",
+    "license": "CC0, as stated in each EIP"
+  }
+]

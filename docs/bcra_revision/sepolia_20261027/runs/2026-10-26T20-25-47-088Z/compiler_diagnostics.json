@@ -1,0 +1,93 @@
+[
+  {
+    "component": "general",
+    "errorCode": "2072",
+    "formattedMessage": "Warning: Unused local variable.\n   --> contracts/Experiment_signedOwner.sol:137:9:\n    |\n137 |         bytes32 digest = _hashTypedDataV4(keccak256(abi.encode(\n    |         ^^^^^^^^^^^^^^\n\n",
+    "message": "Unused local variable.",
+    "severity": "warning",
+    "sourceLocation": {
+      "end": 5256,
+      "file": "contracts/Experiment_signedOwner.sol",
+      "start": 5242
+    },
+    "type": "Warning"
+  },
+  {
+    "component": "general",
+    "errorCode": "5667",
+    "formattedMessage": "Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.\n   --> contracts/Experiment_signedProof.sol:114:9:\n    |\n114 |         uint[2] calldata _pA,\n    |         ^^^^^^^^^^^^^^^^^^^^\n\n",
+    "message": "Unused function parameter. Remove or comment out the variable name to silence this warning.",
+    "severity": "warning",
+    "sourceLocation": {
+      "end": 4129,
+      "file": "contracts/Experiment_signedProof.sol",
+      "start": 4109
+    },
+    "type": "Warning"
+  },
+  {
+    "component": "general",
+    "errorCode": "5667",
+    "formattedMessage": "Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.\n   --> contracts/Experiment_signedProof.sol:115:9:\n    |\n115 |         uint[2][2] calldata _pB,\n    |         ^^^^^^^^^^^^^^^^^^^^^^^\n\n",
+    "message": "Unused function parameter. Remove or comment out the variable name to silence this warning.",
+    "severity": "warning",
+    "sourceLocation": {
+      "end": 4163,
+      "file": "contracts/Experiment_signedProof.sol",
+      "start": 4140
+    },
+    "type": "Warning"
+  },
+  {
+    "component": "general",
+    "errorCode": "5667",
+    "formattedMessage": "Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.\n   --> contracts/Experiment_signedProof.sol:116:9:\n    |\n116 |         uint[2] calldata _pC,\n    |         ^^^^^^^^^^^^^^^^^^^^\n\n",
+    "message": "Unused function parameter. Remove or comment out the variable name to silence this warning.",
+    "severity": "warning",
+    "sourceLocation": {
+      "end": 4194,
+      "file": "contracts/Experiment_signedProof.sol",
+      "start": 4174
+    },
+    "type": "Warning"
+  },
+  {
+    "component": "general",
+    "errorCode": "5667",
+    "formattedMessage": "Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.\n  --> contracts/Experiment_zkProof.sol:93:9:\n   |\n93 |         uint[2] calldata _pA,\n   |         ^^^^^^^^^^^^^^^^^^^^\n\n",
+    "message": "Unused function parameter. Remove or comment out the variable name to silence this warning.",
+    "severity": "warning",
+    "sourceLocation": {
+      "end": 3075,
+      "file": "contracts/Experiment_zkProof.sol",
+      "start": 3055
+    },
+    "type": "Warning"
+  },
+  {
+    "component": "general",
+    "errorCode": "5667",
+    "formattedMessage": "Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.\n  --> contracts/Experiment_zkProof.sol:94:9:\n   |\n94 |         uint[2][2] calldata _pB,\n   |         ^^^^^^^^^^^^^^^^^^^^^^^\n\n",
+    "message": "Unused function parameter. Remove or comment out the variable name to silence this warning.",
+    "severity": "warning",
+    "sourceLocation": {
+      "end": 3109,
+      "file": "contracts/Experiment_zkProof.sol",
+      "start": 3086
+    },
+    "type": "Warning"
+  },
+  {
+    "component": "general",
+    "errorCode": "5667",
+    "formattedMessage": "Warning: Unused function parameter. Remove or comment out the variable name to silence this warning.\n  --> contracts/Experiment_zkProof.sol:95:9:\n   |\n95 |         uint[2] calldata _pC,\n   |         ^^^^^^^^^^^^^^^^^^^^\n\n",
+    "message": "Unused function parameter. Remove or comment out the variable name to silence this warning.",
+    "severity": "warning",
+    "sourceLocation": {
+      "end": 3140,
+      "file": "contracts/Experiment_zkProof.sol",
+      "start": 3120
+    },
+    "type": "Warning"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "august": {
+    "count": 160,
+    "types": [
+      "0x2"
+    ],
+    "nonzeroValue": 0,
+    "nonemptyAccessLists": 0,
+    "nonemptyAuthorizationLists": 0,
+    "blobTransactions": 0
+  },
+  "october": {
+    "count": 1975,
+    "types": [
+      "0x2"
+    ],
+    "nonzeroValue": 0,
+    "nonemptyAccessLists": 0,
+    "nonemptyAuthorizationLists": 0,
+    "blobTransactions": 0
+  }
+}

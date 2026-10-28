@@ -1,0 +1,42 @@
+{
+  "node": "v24.13.1",
+  "solc": "0.8.19+commit.7dd6d404.Emscripten.clang",
+  "ethers": "6.16.0",
+  "snarkjs": "0.7.5",
+  "os": "win32 10.0.26200",
+  "cpu": "AMD Ryzen 5 5600 6-Core Processor              ",
+  "compilerSettings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "viaIR": true,
+    "evmVersion": "paris"
+  },
+  "chainId": 11155111,
+  "startingBlock": 12000379,
+  "addresses": {
+    "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+    "unprivileged_relay": "0xa37F865ad327Bbf6B00D38FC88aF35095DB4D5E2",
+    "groth16_relay": "0xdDa6837837dbd02eB3908CbFBCd91747Ce438B89",
+    "publisher": "0x4E1D6f46170AE1F951156B922b42200d27ba5818",
+    "reserve": "0x7e9D15EF87E5A5F126d931d40e29cb64192f4c98"
+  },
+  "sources": {
+    "ModelAccessControl": "3fac352c00a925fc22df06d4aae7dba5b604582b1c956e2b95f847f471dc6adf",
+    "ModelRegistry": "b71598184cd80c70e81fae3bc22b3283ccebdbedccaa091a2f6fbfd95f0faf75",
+    "Verifier": "5f0276ffc669eecc062751352a0579c840e7af9bb58e0a771c17d68c05c02280",
+    "ZKProvenanceTracker": "3a576507967c659c13b185c8369e4a9347e8bad3ad123c6022af4668e61eb1c7",
+    "SignatureGatedProvenanceTracker": "bbd55f448862b2fcc8d436f37d13ed6b8c2b17366a3c053ac2bea3d823a2d28a",
+    "SignedZKProvenanceTracker": "20ef93bcbfb7333b2b5a88ec476abf2d5210a2290a5e0b0135712e075c8ddd6f",
+    "UngatedProvenanceTracker": "fbbca37361ad1850788e68d2030345927a6a77580a3953cbfb9dd321338ee4e4",
+    "PassiveAnchoringTracker": "cbb1ba115eb969e4e1c5eff5fd696b9bb53e7bfe5e914373495ff47262fe3483"
+  },
+  "balances": {
+    "governance": "0.280315592352675641",
+    "unprivileged_relay": "0.218817715110037834",
+    "groth16_relay": "0.262726267142992982",
+    "publisher": "0.0",
+    "reserve": "20.123167125328954122"
+  }
+}

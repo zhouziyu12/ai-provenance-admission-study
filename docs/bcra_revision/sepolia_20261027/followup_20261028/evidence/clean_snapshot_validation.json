@@ -1,0 +1,20 @@
+{
+  "offlineAssertionsPassed": 37584,
+  "transactionPairs": 2496,
+  "measuredRows": 1975,
+  "statisticalCsvExactMatches": {
+    "ablation_summary.csv": true,
+    "all_experiment_transactions.csv": true,
+    "baseline_summary.csv": true,
+    "chain_verification_summary.csv": true,
+    "lifecycle_summary.csv": true,
+    "metadata_size_summary.csv": true,
+    "paired_ablation_gas.csv": true,
+    "paired_baseline_gas.csv": true,
+    "sdk_runtime_summary.csv": true,
+    "security_outcomes.csv": true
+  },
+  "controlledReplayCasesMatched": 4,
+  "cleanNpmCiCompleted": true,
+  "standaloneHandoverGenerationCompleted": true
+}

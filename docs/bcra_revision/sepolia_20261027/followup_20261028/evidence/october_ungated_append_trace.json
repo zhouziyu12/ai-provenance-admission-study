@@ -1,0 +1,5 @@
+{
+  "txHash": "0x87c6403972384bc92255d7c939aa26c8332fa58fd40cb0fb3426ef632a2f0bf0",
+  "available": false,
+  "error": "{'code': -32601, 'message': 'the method debug_traceTransaction does not exist/is not available'}"
+}

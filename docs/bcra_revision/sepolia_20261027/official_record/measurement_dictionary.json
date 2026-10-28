@@ -1,0 +1,9 @@
+{
+  "proof_ms": "Node real Groth16 proof generation; independently timed local proof verification is excluded.",
+  "sign_ms_contract_experiments": "Authorization signature preparation. For Signed-ZK this includes required current-head and deadline RPC reads before ECDSA signing; it is not pure ECDSA time.",
+  "sign_ms_sdk_integration": "Python EthAccountSigner.sign_typed_data only, measured inside the signer adapter.",
+  "auth_ms_contract_experiments": "proof_ms + signature preparation including any required state reads.",
+  "inclusion_ms": "RPC acknowledgement to client observation of the first mined receipt, including receipt polling delay.",
+  "pipeline_ms_sdk_integration": "SHA-256 + actual IPFS upload + proof generation + SDK/HTTP/receipt; Python signing is already included in SDK/HTTP time.",
+  "authorizations": "Public authorization material; transaction rows are authoritative for reported SDK timing."
+}

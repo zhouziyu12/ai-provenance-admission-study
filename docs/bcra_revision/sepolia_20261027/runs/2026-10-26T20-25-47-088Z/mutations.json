@@ -1,0 +1,74 @@
+[
+  {
+    "key": "zkReplay",
+    "gate": "zk",
+    "removed": "if (nullifierUsed[nullifier]) revert NullifierAlreadyUsed();",
+    "replacement": "// replay guard removed"
+  },
+  {
+    "key": "zkMetadata",
+    "gate": "zk",
+    "removed": "if (_pubSignals[2] != statementHash) revert InvalidStatementHash();",
+    "replacement": "// metadata binding removed"
+  },
+  {
+    "key": "zkModel",
+    "gate": "zk",
+    "removed": "if (_pubSignals[1] != _modelId) revert InvalidModelSignal();",
+    "replacement": "// model binding removed"
+  },
+  {
+    "key": "zkProof",
+    "gate": "zk",
+    "removed": "bool verified = verifier.verifyProof(_pA, _pB, _pC, _pubSignals);",
+    "replacement": "bool verified = true;"
+  },
+  {
+    "key": "zkRole",
+    "gate": "zk",
+    "removed": "accessControl.hasRole(accessControl.REGISTRAR(), msg.sender),",
+    "replacement": "true,"
+  },
+  {
+    "key": "sigReplay",
+    "gate": "sig",
+    "removed": "if (nonceUsed[_nonce]) revert NonceAlreadyUsed();",
+    "replacement": "// replay guard removed"
+  },
+  {
+    "key": "sigOwner",
+    "gate": "sig",
+    "removed": "if (signer != publisher) revert UnauthorisedSigner();",
+    "replacement": "// publisher check removed"
+  },
+  {
+    "key": "signedOwner",
+    "gate": "signed",
+    "removed": "if (digest.recover(authorization.signature) != owner) revert UnauthorisedSigner();",
+    "replacement": "// owner signature verification removed"
+  },
+  {
+    "key": "signedHead",
+    "gate": "signed",
+    "removed": "if (authorization.expectedHead != modelChainHead[_modelId]) revert StaleHead();",
+    "replacement": "// expected head check removed"
+  },
+  {
+    "key": "signedNonce",
+    "gate": "signed",
+    "removed": "if (nonceUsed[owner][authorization.nonce]) revert NonceAlreadyUsed();",
+    "replacement": "// owner nonce guard removed"
+  },
+  {
+    "key": "signedProof",
+    "gate": "signed",
+    "removed": "bool verified = verifier.verifyProof(_pA, _pB, _pC, _pubSignals);",
+    "replacement": "bool verified = true;"
+  },
+  {
+    "key": "signedNullifier",
+    "gate": "signed",
+    "removed": "if (nullifierUsed[nullifier]) revert NullifierAlreadyUsed();",
+    "replacement": "// nullifier guard removed"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "retrievedAt": "2026-10-27T14:19:15.973781+00:00",
+  "endpoint": "https://ethereum-sepolia-rpc.publicnode.com",
+  "augustReceiptsMatched": 160,
+  "chainId": 11155111,
+  "mode": "read-only; no transaction broadcast"
+}

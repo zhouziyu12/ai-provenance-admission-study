@@ -1,0 +1,102 @@
+{
+  "access": {
+    "name": "ModelAccessControl",
+    "address": "0x81a1bf95dcD475B67a11E8d381877BC78D6383B1",
+    "transactionHash": "0x64c1a7a868f6eb05d7d2907bab73b887bb201d63c408f1412529b96fbbf56c31"
+  },
+  "verifier": {
+    "name": "Groth16Verifier",
+    "address": "0x17097b2fa3958Ddd031C5A359EA58b4Afb040c56",
+    "transactionHash": "0xe44e9d897f0626f7aa35611312321a0808b4719d5dac3d6c577cf8819e9b2eef"
+  },
+  "registry": {
+    "name": "ModelRegistry",
+    "address": "0xAA0Eb8A00b167748463C051732cB65d2227387e0",
+    "transactionHash": "0xe50ab3f2f3cb7340970f530cbcffbf79076b3b11e469dc02a11a9731a99519c4"
+  },
+  "zk": {
+    "name": "ZKProvenanceTracker",
+    "address": "0xD93420E159CD70F95b16C3640e3CD80B653CFb1b",
+    "transactionHash": "0x8eb8b51303fe7ad346184ba93aac4316084c285ad3d9ff3dadaabf70c25b055d"
+  },
+  "sig": {
+    "name": "SignatureGatedProvenanceTracker",
+    "address": "0xEFD5B8468B0B694932Fe061fCf48AC0B09165485",
+    "transactionHash": "0x0d498e8a86b014ca4a3baa84abfd5fd63bc258ca6e6661642bef0a7108181419"
+  },
+  "signed": {
+    "name": "SignedZKProvenanceTracker",
+    "address": "0xA4caE9b289C1B72D5aa0518230268C2407195b69",
+    "transactionHash": "0xe3b69048f5a03d843e8302120db0cf796964a544e8f8c09af80f9e0c7a64ab40"
+  },
+  "ungated": {
+    "name": "UngatedProvenanceTracker",
+    "address": "0xb48aeFD5CFE217151ad70C11D3471AdD5b46d7D5",
+    "transactionHash": "0x62d50ad3786bce27015c7244da1dbe0ab07f62a6b055311c97850bcf48f560fa"
+  },
+  "passive": {
+    "name": "PassiveAnchoringTracker",
+    "address": "0x132E889db43488370b3f3BC1ec5d3b84B5c0868C",
+    "transactionHash": "0x515fc81d36e5dddc1a2acceb53a67a6c2523dd4c8323d14c2043736354dd51a3"
+  },
+  "zkReplay": {
+    "name": "Experiment_zkReplay",
+    "address": "0x8796cA2B01bB0E449552c877E67fB927e38D68e1",
+    "transactionHash": "0x55410f481f1c5224b7086e5ee559d5bbe8bd90bc180cbecc3a1268e0b7d0c21c"
+  },
+  "zkMetadata": {
+    "name": "Experiment_zkMetadata",
+    "address": "0x7DD10882c32b66aA5368E3eb71BF9B55509283fb",
+    "transactionHash": "0x46dd423f49e55d4bee6d52b7d65146846ac6f245b3b0b051d26a864c4e61d745"
+  },
+  "zkModel": {
+    "name": "Experiment_zkModel",
+    "address": "0x7eD5E0E0f75dC206540F79Ed5E3d7d5265263b43",
+    "transactionHash": "0xeae12113e4ca20a5a65c686a612e75bad38530f11e8c17f36596f5e5bd1bbfd9"
+  },
+  "zkProof": {
+    "name": "Experiment_zkProof",
+    "address": "0xA4f356525a456685C1cA3f08D621a044b5004C5e",
+    "transactionHash": "0x9d3b2884215d6099bc5f2971efc81c36d7f73fa8f70f9ce8d1379caa5b877ca6"
+  },
+  "zkRole": {
+    "name": "Experiment_zkRole",
+    "address": "0xB3C9daCaafa21db528ded62BBcfeA2E6a44b5118",
+    "transactionHash": "0xeebbdd9d789577ef1dc7f0a57f3ed14c02f4201dcbc65a1d823cf4bf77aa04e3"
+  },
+  "sigReplay": {
+    "name": "Experiment_sigReplay",
+    "address": "0x1C365701f97Edcac981739832b6666f289C006FB",
+    "transactionHash": "0xccce80d82585accfcd4f31316ad065b14f146a51779aada9a0373299a30da5a6"
+  },
+  "sigOwner": {
+    "name": "Experiment_sigOwner",
+    "address": "0xb2D96f2a51dd0fD89ac173ddA2c4faEB7040852a",
+    "transactionHash": "0x1d810cd93e168db62233c159bcb117fc1681987a60caf5cf20e918dd6edb318d"
+  },
+  "signedOwner": {
+    "name": "Experiment_signedOwner",
+    "address": "0x1e617625B85062ba378A0A813CE5233d982f464a",
+    "transactionHash": "0x7d96e30ee08fa616d2c9843d238da1be699d53373131147b7707bc9072e74bb8"
+  },
+  "signedHead": {
+    "name": "Experiment_signedHead",
+    "address": "0x076B12362C2b50c448f0AAac26B4FEc54975c897",
+    "transactionHash": "0x4d44be40b86a9e30e28eed7629f52eafb12bc21ce399f80466eeb8e28a14fb6c"
+  },
+  "signedNonce": {
+    "name": "Experiment_signedNonce",
+    "address": "0x7Db824c4cCC7dB1d441bbF88EC08F2e767dCcd2A",
+    "transactionHash": "0x6b7691bbe3257e729aa49577c33b2fc9ac1fc51f184758d42a2a4c0b38bda5bd"
+  },
+  "signedProof": {
+    "name": "Experiment_signedProof",
+    "address": "0x91f5A9A9dE7aCCC6fF07404fD570a95837f1e2D5",
+    "transactionHash": "0xa7ed96daf448ce9b8421723c368377177e06e9155d58f1c04625ac0419af8a8b"
+  },
+  "signedNullifier": {
+    "name": "Experiment_signedNullifier",
+    "address": "0xd85684463BB1464d2C4Ed942f14f80be69897104",
+    "transactionHash": "0x6b3fb7b2dc23707b97d02d3908b539722a568921b212f5983868a0c935085d8d"
+  }
+}

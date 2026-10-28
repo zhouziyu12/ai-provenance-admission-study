@@ -1,0 +1,143 @@
+{
+  "observedAt": "2026-10-27T01:37:31.901Z",
+  "uploadedArtifacts": 9,
+  "retrieved": 9,
+  "allRetrievedHashesMatch": true,
+  "results": [
+    {
+      "id": "SDK/series_A/v1",
+      "cid": "QmdrrWsVCKfhxMHxGwXPS6ofsuJ3rFtC2tDxNMG3YnFJZM",
+      "expectedSha256": "478d32a12b39307ebecbdcb7b0b8f88558b265c2504fd9b971a84417207d0fda",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "478d32a12b39307ebecbdcb7b0b8f88558b265c2504fd9b971a84417207d0fda",
+      "bytes": 37,
+      "hashMatches": true
+    },
+    {
+      "id": "SDK/series_A/v2",
+      "cid": "Qma9EhFjt4ZHC4Rp3j2Vp6a9BTtScewGPSbrPvLAU8GD9v",
+      "expectedSha256": "384d7663d88acc583a97c163180858c691f49c5f8db1c143b8ce6967923d159b",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "384d7663d88acc583a97c163180858c691f49c5f8db1c143b8ce6967923d159b",
+      "bytes": 37,
+      "hashMatches": true
+    },
+    {
+      "id": "SDK/series_A/v3",
+      "cid": "QmZ4H7skRg8mD211jsfN6MdiYa7gKJNaSRvkUbtbrTNbfC",
+      "expectedSha256": "e94c46e2fae0f01404870fec91a2e49545d5d75f8d338216d06be139d5a6e94b",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "e94c46e2fae0f01404870fec91a2e49545d5d75f8d338216d06be139d5a6e94b",
+      "bytes": 37,
+      "hashMatches": true
+    },
+    {
+      "id": "SDK/series_B/v1",
+      "cid": "QmU9Y3nU3KPt4G4YPokRmRHDH2f9txzXm1KQi6L8a54WSV",
+      "expectedSha256": "cb5e2a50c01d0b1f3aec85af38a874686dfacfd36f1b021ae7b15e50d11655d1",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "cb5e2a50c01d0b1f3aec85af38a874686dfacfd36f1b021ae7b15e50d11655d1",
+      "bytes": 37,
+      "hashMatches": true
+    },
+    {
+      "id": "SDK/series_B/v2",
+      "cid": "QmRre9Wy4ors1z1yZ9VHQpRceQmfkJNNkqWTiK69ddMk3j",
+      "expectedSha256": "a6f77d85cc45b32096a747d63798894061bd38bc657682c2b26ffb27b4c95b51",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "a6f77d85cc45b32096a747d63798894061bd38bc657682c2b26ffb27b4c95b51",
+      "bytes": 37,
+      "hashMatches": true
+    },
+    {
+      "id": "SDK/series_B/v3",
+      "cid": "QmZcs2sgofQGmrt968oTdHJtEa7cSfBkfvhGymbAgdSTRc",
+      "expectedSha256": "0dc32f87973e202e68c46628159d38a58109ea0401d4b677e620e6d849aef05b",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "0dc32f87973e202e68c46628159d38a58109ea0401d4b677e620e6d849aef05b",
+      "bytes": 37,
+      "hashMatches": true
+    },
+    {
+      "id": "SDK/series_C/v1",
+      "cid": "QmTyrMq4yMSCwXLXsEfpohUECM6qBp4VAaxtLHnV8QoB6q",
+      "expectedSha256": "bf3459fefa468976822073f6e24d04365e5d5b28354343837cc5b01e2699c5d9",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "bf3459fefa468976822073f6e24d04365e5d5b28354343837cc5b01e2699c5d9",
+      "bytes": 37,
+      "hashMatches": true
+    },
+    {
+      "id": "SDK/series_C/v2",
+      "cid": "QmQ6ijxHKuZc3jC8h8HHevLCdf3R7qUnmFBpVaBmo6EhUz",
+      "expectedSha256": "29663c08a76694c545f0f569e0633ccb402c520942727c0d9ec7ebfda4d93114",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "29663c08a76694c545f0f569e0633ccb402c520942727c0d9ec7ebfda4d93114",
+      "bytes": 37,
+      "hashMatches": true
+    },
+    {
+      "id": "SDK/series_C/v3",
+      "cid": "QmYwYNMtng2iqM7dCQ3wMhDZcT3NYWrXuGRLKgRc5wUKFF",
+      "expectedSha256": "f4b787dbb50f72311dea5e03ef72189ce77750e1c52aa46cd06429b38b8c5244",
+      "retrieved": true,
+      "attempts": [
+        {
+          "gateway": "https://gateway.pinata.cloud/ipfs/",
+          "status": 200
+        }
+      ],
+      "actualSha256": "f4b787dbb50f72311dea5e03ef72189ce77750e1c52aa46cd06429b38b8c5244",
+      "bytes": 37,
+      "hashMatches": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "runId": "2026-10-26T20-25-47-088Z",
+  "chainId": 11155111,
+  "measuredRows": 1975,
+  "independentAudit": {
+    "pass": true,
+    "network": "sepolia",
+    "chainId": 11155111,
+    "measuredRows": 1975,
+    "reFetchedTransactionPairs": 2496,
+    "independentAssertions": 37584,
+    "observedAt": "2026-10-27T01:36:48.526Z",
+    "scope": "Fresh public RPC transaction and receipt retrieval; calldata, status, gas, signatures, events, deployment code, record hashes and group coverage checked."
+  }
+}

@@ -1,0 +1,5 @@
+campaign,operation,transactionHash,onChainGas,localLegacyGas,modeledGlamsterdamGas,storageDelta,intrinsicDelta,newStorageSlots,sstoreCount,calldataBytes,calldataGas,eventType,metadataBytes,calldataFloor,gasReconciled
+august,first,0x87e65aa4031621ccb4faab41c067f9a6cbf315d61f6de445fde308bc5542a990,599965,599965,2799565,2205600,-6000,25,28,676,8944,0,492,58264,True
+august,append,0x7328324b64f3e217144b0d7a4ee8019aad33ca2d2e642cd45cc6a957ee81c03a,605541,605541,2819541,2220000,-6000,25,28,676,8920,2,489,58264,True
+october,first,0x85a26adc608a6162a2065f81df544bec0aff821f840ec7e2c96acc9d8d2a0538,2907778,620158,2907778,2293620,-6000,26,28,676,9196,2,512,58264,True
+october,append,0x87c6403972384bc92255d7c939aa26c8332fa58fd40cb0fb3426ef632a2f0bf0,2819858,605858,2819858,2220000,-6000,25,28,676,9196,2,512,58264,True

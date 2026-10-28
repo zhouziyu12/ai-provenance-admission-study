@@ -1,0 +1,65 @@
+{
+  "SDK/series_A/v1": {
+    "modelHash": "478d32a12b39307ebecbdcb7b0b8f88558b265c2504fd9b971a84417207d0fda",
+    "artifactCid": "QmdrrWsVCKfhxMHxGwXPS6ofsuJ3rFtC2tDxNMG3YnFJZM",
+    "provider": "pinata-direct",
+    "hash_ms": 0.3189999988535419,
+    "upload_ms": 2289.978199998586
+  },
+  "SDK/series_B/v1": {
+    "modelHash": "cb5e2a50c01d0b1f3aec85af38a874686dfacfd36f1b021ae7b15e50d11655d1",
+    "artifactCid": "QmU9Y3nU3KPt4G4YPokRmRHDH2f9txzXm1KQi6L8a54WSV",
+    "provider": "pinata-direct",
+    "hash_ms": 0.18570000247564167,
+    "upload_ms": 1714.8171000008006
+  },
+  "SDK/series_C/v1": {
+    "modelHash": "bf3459fefa468976822073f6e24d04365e5d5b28354343837cc5b01e2699c5d9",
+    "artifactCid": "QmTyrMq4yMSCwXLXsEfpohUECM6qBp4VAaxtLHnV8QoB6q",
+    "provider": "pinata-direct",
+    "hash_ms": 0.18060000002151355,
+    "upload_ms": 1680.475100001786
+  },
+  "SDK/series_A/v2": {
+    "modelHash": "384d7663d88acc583a97c163180858c691f49c5f8db1c143b8ce6967923d159b",
+    "artifactCid": "Qma9EhFjt4ZHC4Rp3j2Vp6a9BTtScewGPSbrPvLAU8GD9v",
+    "provider": "pinata-direct",
+    "hash_ms": 0.18379999892204069,
+    "upload_ms": 1803.4666999992623
+  },
+  "SDK/series_B/v2": {
+    "modelHash": "a6f77d85cc45b32096a747d63798894061bd38bc657682c2b26ffb27b4c95b51",
+    "artifactCid": "QmRre9Wy4ors1z1yZ9VHQpRceQmfkJNNkqWTiK69ddMk3j",
+    "provider": "pinata-direct",
+    "hash_ms": 0.18320000162930228,
+    "upload_ms": 1780.9019000014814
+  },
+  "SDK/series_C/v2": {
+    "modelHash": "29663c08a76694c545f0f569e0633ccb402c520942727c0d9ec7ebfda4d93114",
+    "artifactCid": "QmQ6ijxHKuZc3jC8h8HHevLCdf3R7qUnmFBpVaBmo6EhUz",
+    "provider": "pinata-direct",
+    "hash_ms": 0.17830000069807284,
+    "upload_ms": 2172.970700001315
+  },
+  "SDK/series_A/v3": {
+    "modelHash": "e94c46e2fae0f01404870fec91a2e49545d5d75f8d338216d06be139d5a6e94b",
+    "artifactCid": "QmZ4H7skRg8mD211jsfN6MdiYa7gKJNaSRvkUbtbrTNbfC",
+    "provider": "pinata-direct",
+    "hash_ms": 0.19210000027669594,
+    "upload_ms": 1689.0901000006124
+  },
+  "SDK/series_B/v3": {
+    "modelHash": "0dc32f87973e202e68c46628159d38a58109ea0401d4b677e620e6d849aef05b",
+    "artifactCid": "QmZcs2sgofQGmrt968oTdHJtEa7cSfBkfvhGymbAgdSTRc",
+    "provider": "pinata-direct",
+    "hash_ms": 0.18049999926006421,
+    "upload_ms": 1851.4138999998977
+  },
+  "SDK/series_C/v3": {
+    "modelHash": "f4b787dbb50f72311dea5e03ef72189ce77750e1c52aa46cd06429b38b8c5244",
+    "artifactCid": "QmYwYNMtng2iqM7dCQ3wMhDZcT3NYWrXuGRLKgRc5wUKFF",
+    "provider": "pinata-direct",
+    "hash_ms": 0.18229999841423705,
+    "upload_ms": 1720.3255000022182
+  }
+}
