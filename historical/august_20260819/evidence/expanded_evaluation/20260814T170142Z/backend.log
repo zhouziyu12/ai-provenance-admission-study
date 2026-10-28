@@ -1,0 +1,23 @@
+Server on port 3200
+[2026-08-14T17:01:42.714Z] GET /api/health
+[2026-08-14T17:01:42.772Z] POST /api/auth/login
+[2026-08-14T17:01:42.819Z] POST /api/auth/login
+[2026-08-14T17:01:42.883Z] GET /api/v2/models/resolve
+[2026-08-14T17:01:42.899Z] POST /api/register
+[2026-08-14T17:01:53.804Z] POST /api/sdk/provenance
+[2026-08-14T17:02:06.905Z] GET /api/v2/models/resolve
+[2026-08-14T17:02:09.769Z] POST /api/sdk/provenance
+[2026-08-14T17:02:26.416Z] GET /api/v2/models/resolve
+[2026-08-14T17:02:29.390Z] POST /api/sdk/provenance
+[2026-08-14T17:02:37.474Z] GET /api/v2/models/resolve
+[2026-08-14T17:02:37.476Z] POST /api/register
+[2026-08-14T17:03:04.987Z] POST /api/sdk/provenance
+[2026-08-14T17:03:17.646Z] GET /api/v2/models/resolve
+[2026-08-14T17:03:20.766Z] POST /api/sdk/provenance
+[2026-08-14T17:03:41.849Z] GET /api/v2/models/resolve
+[2026-08-14T17:03:41.865Z] POST /api/register
+[2026-08-14T17:03:52.416Z] POST /api/sdk/provenance
+[2026-08-14T17:04:18.654Z] GET /api/v2/models/resolve
+[2026-08-14T17:04:22.433Z] POST /api/sdk/provenance
+[2026-08-14T17:04:30.389Z] GET /api/v2/models/resolve
+[2026-08-14T17:04:33.370Z] POST /api/sdk/provenance

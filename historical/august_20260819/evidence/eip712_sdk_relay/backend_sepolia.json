@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-08-19T15:30:53.503Z",
+  "modelId": 63,
+  "owner": "0xe248A5AB45634360799F83193c41079b773453c8",
+  "relay": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+  "registrationTxHash": "0xbddaff87b9d7c21e3058992cc6d5dded36bb11d63ec39d4fa7d54058c4f6b603",
+  "verifyingContract": "0xEBE2dF8cd5006A39275bFb66D39bC70997411f7F",
+  "tests": {
+    "tamperedMetadata": {
+      "expected": 403,
+      "actual": 403,
+      "passed": true
+    },
+    "validOwnerSignature": {
+      "expected": 200,
+      "actual": 200,
+      "passed": true,
+      "txHash": "0x522f14a7d8e241c460863f346ed6590944f21747b051f125ecb24afc7eb840ff",
+      "blockNumber": 11522948
+    },
+    "replay": {
+      "expected": 409,
+      "actual": 409,
+      "passed": true
+    }
+  },
+  "signerIsRelay": false,
+  "passed": true
+}

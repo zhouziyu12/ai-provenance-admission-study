@@ -1,0 +1,199 @@
+{
+  "suite": "SDK and Backend Integration Tests",
+  "timestamp": "2026-08-22T09:36:16.472475Z",
+  "tests": [
+    {
+      "name": "SDK Import",
+      "status": "PASS",
+      "detail": "ProvenanceSDK imported successfully",
+      "data": null
+    },
+    {
+      "name": "Secret Manager Import",
+      "status": "PASS",
+      "detail": "ModelSecretManager imported successfully",
+      "data": null
+    },
+    {
+      "name": "GET /api/health",
+      "status": "PASS",
+      "detail": "Endpoint returned success=true",
+      "data": null
+    },
+    {
+      "name": "GET /api/health jwtSecretMode",
+      "status": "PASS",
+      "detail": "Health endpoint reports jwtSecretMode=configured",
+      "data": null
+    },
+    {
+      "name": "GET /api/v2/status",
+      "status": "PASS",
+      "detail": "Endpoint returned success=true",
+      "data": null
+    },
+    {
+      "name": "GET /api/v2/status zkEnforced",
+      "status": "PASS",
+      "detail": "Backend reports verifier-gated provenance as enabled",
+      "data": null
+    },
+    {
+      "name": "GET /api/v2/status authStoreMode",
+      "status": "PASS",
+      "detail": "Backend reports the hardened file-backed auth store mode",
+      "data": null
+    },
+    {
+      "name": "GET /api/v2/status jwtSecretMode",
+      "status": "PASS",
+      "detail": "Status endpoint reports jwtSecretMode=configured",
+      "data": null
+    },
+    {
+      "name": "GET /api/v2/models",
+      "status": "PASS",
+      "detail": "Endpoint returned success=true",
+      "data": null
+    },
+    {
+      "name": "GET /api/v2/models inventoryMode",
+      "status": "PASS",
+      "detail": "Model list explicitly reports backend-index inventory semantics",
+      "data": null
+    },
+    {
+      "name": "POST /api/auth/login",
+      "status": "PASS",
+      "detail": "Login returned success=true and issued a JWT",
+      "data": null
+    },
+    {
+      "name": "GET /api/auth/me",
+      "status": "PASS",
+      "detail": "Authenticated session resolves to a bound wallet address",
+      "data": null
+    },
+    {
+      "name": "POST /api/register without auth",
+      "status": "PASS",
+      "detail": "Unauthenticated write rejected with 401",
+      "data": null
+    },
+    {
+      "name": "POST /api/register with auth",
+      "status": "PASS",
+      "detail": "Authenticated write passed auth and failed at validation",
+      "data": null
+    },
+    {
+      "name": "POST /api/sdk/provenance with auth",
+      "status": "PASS",
+      "detail": "Authenticated verifier-gated route rejected invalid payload at validation stage",
+      "data": null
+    },
+    {
+      "name": "POST /api/sdk/provenance/eip712 with auth",
+      "status": "PASS",
+      "detail": "Signed route rejected invalid payload before relay use",
+      "data": null
+    },
+    {
+      "name": "Secret Manager Tests",
+      "status": "WARN",
+      "detail": "Command '['powershell', '-NoProfile', '-Command', '$plain = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($env:MODEL_SECRET_PLAINTEXT_B64));$secure = ConvertTo-SecureString $plain -AsPlainText -Force;$secure | ConvertFrom-SecureString']' returned non-zero exit status 1.",
+      "data": null
+    },
+    {
+      "name": "File: server/server.js",
+      "status": "PASS",
+      "detail": "Exists (76.02 KB)",
+      "data": null
+    },
+    {
+      "name": "File: sdk/python/provenance_sdk.py",
+      "status": "PASS",
+      "detail": "Exists (23.67 KB)",
+      "data": null
+    },
+    {
+      "name": "File: sdk/python/model_secret_manager.py",
+      "status": "PASS",
+      "detail": "Exists (8.46 KB)",
+      "data": null
+    },
+    {
+      "name": "File: test_zk_standalone.js",
+      "status": "PASS",
+      "detail": "Exists (6.14 KB)",
+      "data": null
+    },
+    {
+      "name": "File: contracts/ModelAccessControl.sol",
+      "status": "PASS",
+      "detail": "Exists (4.67 KB)",
+      "data": null
+    },
+    {
+      "name": "File: contracts/ModelRegistry.sol",
+      "status": "PASS",
+      "detail": "Exists (14.68 KB)",
+      "data": null
+    },
+    {
+      "name": "File: contracts/SignatureGatedProvenanceTracker.sol",
+      "status": "PASS",
+      "detail": "Exists (6.69 KB)",
+      "data": null
+    },
+    {
+      "name": "File: contracts/UngatedProvenanceTracker.sol",
+      "status": "PASS",
+      "detail": "Exists (4.26 KB)",
+      "data": null
+    },
+    {
+      "name": "File: contracts/Verifier.sol",
+      "status": "PASS",
+      "detail": "Exists (7.65 KB)",
+      "data": null
+    },
+    {
+      "name": "File: contracts/ZKProvenanceTracker.sol",
+      "status": "PASS",
+      "detail": "Exists (8.70 KB)",
+      "data": null
+    },
+    {
+      "name": "File: scripts/verify_zk_reproducibility.mjs",
+      "status": "PASS",
+      "detail": "Exists (3.26 KB)",
+      "data": null
+    },
+    {
+      "name": "File: tests/signature_gate.test.js",
+      "status": "PASS",
+      "detail": "Exists (5.27 KB)",
+      "data": null
+    },
+    {
+      "name": "File: tests/test_eip712_sdk.py",
+      "status": "PASS",
+      "detail": "Exists (2.98 KB)",
+      "data": null
+    },
+    {
+      "name": "SDK model resolution",
+      "status": "SKIP",
+      "detail": "Requires a deployed application and is outside the offline reviewer snapshot",
+      "data": null
+    }
+  ],
+  "summary": {
+    "passed": 29,
+    "failed": 0,
+    "warned": 1,
+    "skipped": 1,
+    "total": 31
+  }
+}

@@ -1,0 +1,3 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+Warning: PRIVATE_KEY not found in .env. Real network deployment will fail.
+Compiled 16 Solidity files successfully (evm target: paris).

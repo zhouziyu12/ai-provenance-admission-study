@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-15T00:00:00+08:00",
+  "hashAlgorithm": "SHA-256",
+  "artifacts": [
+    {
+      "path": "zk/circuit.circom",
+      "sha256": "7a34685062803e1736ee13255506f7668fc5c483b969b366e7bda8d782b97605"
+    },
+    {
+      "path": "zk/build/circuit.r1cs",
+      "sha256": "eb2570931287299c99b65fc7b94a8fea336bda23dbe3ff10e62168053fb961e1"
+    },
+    {
+      "path": "zk/circuit_final.zkey",
+      "sha256": "e4260640e46c87329177086992a71bba97c2e6bb535098ef9e108ed115460fb2"
+    },
+    {
+      "path": "zk/verification_key.json",
+      "sha256": "2353bad605099cacbb8a026cdb29f0289c714b4eb925649c22e2f7a1a4b0abf3"
+    },
+    {
+      "path": "zk/build/circuit_js/circuit.wasm",
+      "sha256": "dcf327e5631b189a588bc038a5b9a6ddd13a4f7fbda679ccb9ca4618d8a26a8c"
+    },
+    {
+      "path": "zk/build/circuit_js/generate_witness.js",
+      "sha256": "c844dfc1608d9b9f9cb564dd2e9b1041cf7a699c0b0b81be4866bc942c1a2011"
+    },
+    {
+      "path": "zk/build/circuit_js/witness_calculator.js",
+      "sha256": "cc2d37b2cff2a589dd86f8636f1a1dc9fe4a854550b021aa0cea2e235d14e942"
+    },
+    {
+      "path": "contracts/Verifier.sol",
+      "sha256": "5f0276ffc669eecc062751352a0579c840e7af9bb58e0a771c17d68c05c02280"
+    }
+  ]
+}

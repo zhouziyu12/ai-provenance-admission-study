@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-04T13:43:23.251Z",
+  "sourceDirectory": "20260821T135455148Z_verified_infura_20260825",
+  "files": [
+    {
+      "file": "final_registry_campaign.json",
+      "bytes": 155862,
+      "sha256": "c5e0eec9b280da0b3de45059d31dc0dc929fe47c99b33c4cc3cc786ed1c05cfe"
+    },
+    {
+      "file": "gate_measured_transactions.csv",
+      "bytes": 38100,
+      "sha256": "2f6faae5b6cc0a82cee3723778c2f579186b95c2ee48ec4804ce0e739242fe77"
+    },
+    {
+      "file": "measured_receipt_validation.json",
+      "bytes": 48323,
+      "sha256": "32016ba0b6a1f2e092f54a9e6af756e3c6e5ce723db2e0140d4732870ae856a4"
+    },
+    {
+      "file": "measured_transaction_validation.json",
+      "bytes": 156793,
+      "sha256": "221159550c062a102342298549ac3379d736bd946b9d27413190173f60c275ff"
+    },
+    {
+      "file": "passive_measured_transactions.csv",
+      "bytes": 11495,
+      "sha256": "57cc9d00ee707c14ed79597775f984e0a94aabd32207c2e8a5456093238f44fd"
+    },
+    {
+      "file": "public_deployment_addresses.json",
+      "bytes": 773,
+      "sha256": "a4a48a4fead889173186e1308a05b2417688f50ee9fefab7791ababd0d3010b4"
+    },
+    {
+      "file": "role_change_event_scan.json",
+      "bytes": 449,
+      "sha256": "10de37bf022fe81bec003ff1b8ccd2bb1485f761394a06ec6951db1c0869c00e"
+    },
+    {
+      "file": "source_evidence_sha256.json",
+      "bytes": 963,
+      "sha256": "a1faf40d8faf2bbb633ea7e3699f0eba0e48a3360b3bd33e8ac3e1a6273ee98a"
+    }
+  ]
+}

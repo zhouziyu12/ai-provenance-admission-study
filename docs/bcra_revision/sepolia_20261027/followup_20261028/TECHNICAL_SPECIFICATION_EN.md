@@ -50,7 +50,7 @@ It appends recordId to modelHistory[m] and updates modelChainHead[m]=recordHash.
 5. Valid Groth16 verification enforces the active relation under the chosen proof system/setup assumptions. It does not establish an owner's identity, hash/CID agreement or truthful model history. Both signature and proof can consistently bind false claims.
 6. Owner approval is evaluated at execution. A transfer to another owner invalidates the former owner's pending signature; a later transfer back can make an unconsumed, unexpired authorisation valid again if its head still matches. The latter scenario was not tested and no permanent transfer-epoch invalidation is claimed.
 
-These statements are implementation-derived invariants with empirical supporting cases, not machine-checked proofs. Ruoting can formalise preservation under admission, management and registry transitions, explicitly including governance assumptions and counterexamples.
+These statements are implementation-derived invariants with empirical supporting cases, not machine-checked proofs. Any formal derivation must include admission, management and registry transitions, governance assumptions and counterexamples.
 
 ## 5. Trust and non-guarantees
 

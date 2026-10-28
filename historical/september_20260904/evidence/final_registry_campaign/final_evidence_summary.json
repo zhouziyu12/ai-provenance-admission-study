@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-09-04T13:43:23.251Z",
+  "sourceRunId": "20260821T135455148Z",
+  "network": "sepolia",
+  "chainId": 11155111,
+  "campaignTimeline": {
+    "enclosingAuditSpan": {
+      "fromBlock": 11536485,
+      "toBlock": 11536745
+    },
+    "phases": [
+      {
+        "name": "gate measurement phase",
+        "blockRange": {
+          "fromBlock": 11536485,
+          "toBlock": 11536651
+        },
+        "measuredTransactions": 120
+      },
+      {
+        "name": "inter-phase setup interval",
+        "blockRange": {
+          "fromBlock": 11536652,
+          "toBlock": 11536661
+        },
+        "passiveTrackerDeploymentBlock": 11536657,
+        "passiveTrackerInitialisationBlock": 11536659
+      },
+      {
+        "name": "passive measurement phase",
+        "blockRange": {
+          "fromBlock": 11536662,
+          "toBlock": 11536745
+        },
+        "measuredTransactions": 40
+      }
+    ]
+  },
+  "broadcasterEvidence": {
+    "transactionCount": 160,
+    "uniqueTransactionHashCount": 160,
+    "variantChecks": {
+      "ungated": {
+        "transactionCount": 40,
+        "broadcasterAddress": "0xa37F865ad327Bbf6B00D38FC88aF35095DB4D5E2",
+        "contractAddress": "0x4e8C04891c15BE8793b7B8B1a0A4C0e8f7F2377B",
+        "allAssertionsPassed": true
+      },
+      "eip712": {
+        "transactionCount": 40,
+        "broadcasterAddress": "0xa37F865ad327Bbf6B00D38FC88aF35095DB4D5E2",
+        "contractAddress": "0x7286231542EAFF96bE93946159Dd7BA440449428",
+        "allAssertionsPassed": true
+      },
+      "groth16": {
+        "transactionCount": 40,
+        "broadcasterAddress": "0xdDa6837837dbd02eB3908CbFBCd91747Ce438B89",
+        "contractAddress": "0xfEeC7bff9766b241D24297845fA12e9Ea0bf1f3a",
+        "allAssertionsPassed": true
+      },
+      "passive": {
+        "transactionCount": 40,
+        "broadcasterAddress": "0xa37F865ad327Bbf6B00D38FC88aF35095DB4D5E2",
+        "contractAddress": "0x937AEd76ce9c7ac0eaF0F225C50B852B30D6Ea1c",
+        "allAssertionsPassed": true
+      }
+    },
+    "allBroadcastersDifferFromPublisher": true,
+    "allTransactionsConfirmedAndMatched": true,
+    "allContractAddressesMatched": true,
+    "allAssertionsPassed": true
+  },
+  "eventEvidence": {
+    "campaignSpan": {
+      "fromBlock": 11536485,
+      "toBlock": 11536745
+    },
+    "campaignObservedCounts": {
+      "ModelRegistry.ModelRegistered": 0,
+      "ModelRegistry.OwnershipTransferRequested": 0,
+      "ModelRegistry.OwnershipTransferAccepted": 0,
+      "ModelRegistry.OwnershipTransferCancelled": 0,
+      "ModelAccessControl.RoleGranted": 0,
+      "ModelAccessControl.RoleRevoked": 0
+    },
+    "setupPositiveControlRange": {
+      "fromBlock": 11536440,
+      "toBlock": 11536484
+    },
+    "setupModelRegisteredCount": 21,
+    "setupRoleGrantedCount": 2,
+    "setupRoleGrantedBlocks": [
+      11536447,
+      11536448
+    ],
+    "extendedRolePositiveControlRange": {
+      "fromBlock": 11536438,
+      "toBlock": 11536484
+    },
+    "extendedRoleGrantedCount": 3,
+    "extendedRoleGrantedBlocks": [
+      11536438,
+      11536447,
+      11536448
+    ],
+    "allAssertionsPassed": true
+  },
+  "noTransactionsSubmittedDuringEvidenceChecks": true,
+  "allAssertionsPassed": true
+}

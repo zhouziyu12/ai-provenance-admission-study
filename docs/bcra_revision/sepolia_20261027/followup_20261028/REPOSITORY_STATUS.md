@@ -1,7 +1,11 @@
-# Reviewer repository
+# Repository status
 
-Destination: [zhouziyu12/BCRA-D-26-00793](https://github.com/zhouziyu12/BCRA-D-26-00793). GitHub reports public visibility. This snapshot starts a fresh history in the user-selected empty repository. It does not import development history or real credentials. The destination name and the retained manuscript identifier BCRA-D-26-00984 differ; evidence identifiers are preserved.
+Repository: https://github.com/zhouziyu12/ai-provenance-admission-study
 
-The source and data are organised for offline receipt checking, statistical reproduction, proof generation/verification, and the controlled gas diagnostic. Publication is confirmed by the commit visible on GitHub; this file is part of that snapshot. Any later re-fetch of live-chain evidence should be kept distinct from the original frozen observations.
+The repository is public. It contains the October Sepolia campaign, its analysis and reproduction scripts, and separately archived August evidence and September frozen backend/test sources. See the root README and `historical/README.md` for the evidence index. October-only comparisons are the primary experimental results; historical data must not be pooled across campaigns.
 
-Current credential status is documented in [REPRODUCIBILITY_EN.md](REPRODUCIBILITY_EN.md) and `evidence/latest_credential_validation_redacted.json`: replacement credentials work; old Pinata authentication is denied; old Infura Sepolia access is denied. Mainnet/Hoodi disabling is account-owner reported. Entire-key deletion or revocation for other Infura products is not asserted.
+`SHA256SUMS.json` covers the complete reviewer snapshot except itself. `historical/SOURCE_PROVENANCE.json` identifies original ZIP hashes, entry hashes and any credential redactions. Original Git history, live configuration, private keys and keystores are excluded.
+
+The tagged reviewer snapshot is `v1.0.0-reviewer.1`. Release assets provide a downloadable ZIP and its SHA-256 checksum. A Zenodo DOI has not yet been issued; no persistent DOI is claimed. See `CITATION.cff` and `ARCHIVING.md` in the repository root.
+
+Credential remediation is partial, not certified complete. The tested old service endpoints deny access; whole-key Infura deletion and legacy development-wallet remediation remain unconfirmed. See the dated, scoped findings in `SECURITY_STATUS.md`.

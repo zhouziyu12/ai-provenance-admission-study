@@ -1,9 +1,9 @@
-# Sepolia provenance experiments and Signed-ZK technical handover
+# AI Provenance Admission Study
 
 Start with [the October 28 technical handover](docs/bcra_revision/sepolia_20261027/followup_20261028/TECHNICAL_HANDOVER_EN.md) and [the official experiment record](docs/bcra_revision/sepolia_20261027/official_record/SEPOLIA_EXPERIMENT_REPORT_EN.md).
-Repository: [zhouziyu12/BCRA-D-26-00793](https://github.com/zhouziyu12/BCRA-D-26-00793). The repository name is the user-selected destination; the retained experiment documents refer to manuscript **BCRA-D-26-00984**.
+Repository: [zhouziyu12/ai-provenance-admission-study](https://github.com/zhouziyu12/ai-provenance-admission-study). Historical manuscript identifiers are retained in the archived evidence.
 
-**1,975 measured outcomes · five implementations · twelve ablations · nine real IPFS uploads.**
+**1,975 measured outcomes 路 five implementations 路 twelve ablations 路 nine real IPFS uploads.**
 
 All measured writes and adversarial transactions in that record were newly broadcast to Ethereum Sepolia, chain ID 11155111.
 This package includes one official record, public transaction evidence, actual circuit artifacts, source contracts, ablation definitions, SDK/router code and reproduction scripts.
@@ -33,7 +33,7 @@ python scripts/revision20261027/build_followup.py
 
 The local replay is a diagnostic of existing chain observations, not additional Sepolia transactions. Read the gas explanation for its controlled-state and accounting-model limitations. To re-fetch public evidence, run the audit without `--offline`. The read-only `collect_followup.py` retrieves historical transaction/block/code evidence and records unavailable trace endpoints explicitly.
 
-Replacement service credentials were validated on 28 October. The old Pinata credential returned HTTP 403 and the old Infura credential returned HTTP 401 on Sepolia. The account owner reports disabling Mainnet, Hoodi and Sepolia for the old Infura credential; only Sepolia denial was tested. Whole-key deletion is not claimed. No old or new credentials or original development Git history are included. See the handover reproducibility report for the evidence and scope.
+For the dated scope of credential and development-wallet remediation, see [security status](SECURITY_STATUS.md). A clean publication snapshot does not imply all historical credentials or wallet permissions have been revoked.
 
 Supply `BCRA_KEYSTORE_DIR` and `BCRA_KEYSTORE_PASSWORD` locally. The directory must contain encrypted ethers keystores named `governance.json`, `groth16_relay.json`, `unprivileged_relay.json`, `publisher.json` and `reserve.json`.
 Fund governance and both relay accounts with Sepolia ETH. The publisher signs locally; the runner supplies a small testnet balance for owner-driven registry transfer tests when needed.
@@ -46,4 +46,15 @@ If interrupted, resume with `node scripts/revision20261027/run.mjs --run-id <pri
 Proof/signature randomness, block ordering and latency vary between executions. Concurrency records observed block inclusion; the runner does not control public-network block production.
 The bundled PowerShell launcher is a convenience for the original machine's protected-keystore pointer. Other environments should use the explicit environment configuration above.
 
-`SHA256SUMS.json` covers every packaged file except itself. The archive also has an external SHA-256 checksum.
+`SHA256SUMS.json` covers every packaged file except itself. The archive also has an external SHA-256 checksum. Verify the delivered files with `python scripts/verify_snapshot.py`. Package the verified snapshot with `python scripts/revision20261027/package.py --output <new-archive.zip>`; the packager includes historical evidence and refuses to overwrite existing archives.
+
+
+## Historical evidence and interpretation
+
+The [historical evidence index](historical/README.md) links the August end-to-end and rejection records and the September frozen backend, SDK and associated tests. The August owner-spoofing fixture used the same address for the relay and `user_01`; it tests backend handling of an owner field, not owner authorisation against a malicious relay. October E4/E9 provide the primary owner-authorisation evidence.
+
+Keep October-only cost comparisons separate from August. The EIP-712 runtime bytecode differs across campaigns despite identical source. No universal cross-campaign bytecode identity is claimed.
+
+## Version and citation
+
+Reviewer snapshot: `v1.0.0-reviewer.1`. See [release notes](RELEASE_NOTES.md), [citation metadata](CITATION.cff) and [archiving status](ARCHIVING.md). No Zenodo DOI has been minted. The archive is a research snapshot; legacy wallet remediation remains separate from experimental reproducibility.

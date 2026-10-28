@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-08-21T13:49:29.603Z",
+  "chainId": 11155111,
+  "sourceAddress": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+  "startingBalanceEth": "21.023277047231926122",
+  "transfers": [
+    {
+      "role": "governance",
+      "address": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+      "amountEth": "0.3",
+      "txHash": "0xac2cb92d4e5e47741ea647e48dabc34d046b986940012da47c72e9142254e927",
+      "blockNumber": 11536412,
+      "gasUsed": 21000,
+      "status": 1
+    },
+    {
+      "role": "unprivileged_relay",
+      "address": "0xa37F865ad327Bbf6B00D38FC88aF35095DB4D5E2",
+      "amountEth": "0.3",
+      "txHash": "0x02e2e27af1a4e6063d013f92e0b34364fee5c63b30e25a2c51f8186d86d0f6db",
+      "blockNumber": 11536413,
+      "gasUsed": 21000,
+      "status": 1
+    },
+    {
+      "role": "groth16_relay",
+      "address": "0xdDa6837837dbd02eB3908CbFBCd91747Ce438B89",
+      "amountEth": "0.3",
+      "txHash": "0x7ea688d4eeacf26ee7a04b3acbea8909a8e6f2447417b00a54d616d77ba8a942",
+      "blockNumber": 11536414,
+      "gasUsed": 21000,
+      "status": 1
+    },
+    {
+      "role": "reserve",
+      "address": "0x7e9D15EF87E5A5F126d931d40e29cb64192f4c98",
+      "amountEth": "20.123167125328954122",
+      "txHash": "0xab3901e462a5cea0765169ab0cc31db63f09e3baab9f44aad8844bcfb990da01",
+      "blockNumber": 11536415,
+      "gasUsed": 21000,
+      "status": 1
+    }
+  ],
+  "endingBalanceEth": "0.000022951579014",
+  "publisher": {
+    "address": "0x4E1D6f46170AE1F951156B922b42200d27ba5818",
+    "amountEth": "0"
+  }
+}

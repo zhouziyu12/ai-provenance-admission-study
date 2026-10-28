@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-08-19T16:06:14.967Z",
+  "network": "sepolia",
+  "chainId": 11155111,
+  "contractAddress": "0x12645D559Bd1Aa90057a7876930d4ECC3aAd31F8",
+  "exactElsaidContractInterface": true,
+  "wallet": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+  "modelId": "6830357854729",
+  "recordCount": 2,
+  "balanceUsedEth": "0.001409258982674518",
+  "paths": [
+    {
+      "operation": "first",
+      "version": "v1.0",
+      "modelId": "6830357854729",
+      "artifactCid": "QmeFBjyX9gP7kYKc68wSeXt9vybPYv1UyDbyLmepjcHcL6",
+      "modelHash": "0x66fa52eceffecd4e349efd6af0cc1bd81e22eb0bfc733f697b1473f0a63900b3",
+      "metadataBytes": 495,
+      "txHash": "0x66b7fa388d89ac34ca26b04612603e7115da7c14fcc3fbd6390b5deaba74c237",
+      "blockNumber": 11523119,
+      "receiptStatus": 1,
+      "gasUsed": 663511,
+      "stages": {
+        "artifactHashSeconds": 0.000253,
+        "ipfsUploadSeconds": 3.073458,
+        "metadataConstructionSeconds": 0.00009,
+        "proofGeneration": "not-applicable-passive-baseline",
+        "chainSubmissionAndConfirmationSeconds": 16.789634
+      },
+      "totalWallClockSeconds": 19.864166
+    },
+    {
+      "operation": "append",
+      "version": "v2.0",
+      "modelId": "6830357854729",
+      "artifactCid": "QmfSMToQL7Z5nahLPji4dwHVhaQecgRL6TSZSrvbyD6Wj2",
+      "modelHash": "0x3da59df73bce3d7d5d2a0bcdf21997f80e8810d7c4bc35256510ff5aff2d1aaf",
+      "metadataBytes": 493,
+      "txHash": "0x87a3c570caf6c072248482b88f0e55541b812561620fd75c03fd449f06139120",
+      "blockNumber": 11523121,
+      "receiptStatus": 1,
+      "gasUsed": 646387,
+      "stages": {
+        "artifactHashSeconds": 0.000048,
+        "ipfsUploadSeconds": 2.001652,
+        "metadataConstructionSeconds": 0.000053,
+        "proofGeneration": "not-applicable-passive-baseline",
+        "chainSubmissionAndConfirmationSeconds": 20.174309
+      },
+      "totalWallClockSeconds": 22.176689
+    }
+  ],
+  "passed": true
+}

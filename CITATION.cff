@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this versioned software and experimental evidence snapshot. This metadata identifies the repository maintainer, not the manuscript author list."
+type: software
+title: "AI Provenance Admission Study: Sepolia Experimental Evidence"
+authors:
+  - family-names: Zhou
+    given-names: Ziyu
+version: "1.0.0-reviewer.1"
+date-released: "2026-10-28"
+repository-code: "https://github.com/zhouziyu12/ai-provenance-admission-study"
+url: "https://github.com/zhouziyu12/ai-provenance-admission-study/releases/tag/v1.0.0-reviewer.1"
+license: MIT
+keywords:
+  - model provenance
+  - Sepolia
+  - Groth16
+  - EIP-712
+  - reproducibility

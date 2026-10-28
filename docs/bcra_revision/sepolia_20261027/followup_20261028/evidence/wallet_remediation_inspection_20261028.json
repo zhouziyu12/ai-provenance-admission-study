@@ -1,0 +1,161 @@
+{
+  "checkedAt": "2026-10-28T08:51:20.416Z",
+  "chainId": 11155111,
+  "blockNumber": 12011232,
+  "blockHash": "0x9a1c2fbeb04e28b8684fc57d28682b13f39c458858b327d46200b29f760bdfc8",
+  "scope": "Read-only native Sepolia balance and four roles/governance/blacklist on three known access-control deployments. Not a complete asset, token, model-ownership or cross-network audit.",
+  "wallets": [
+    {
+      "field": "PRIVATE_KEY",
+      "address": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+      "configured": true,
+      "matchesHistoricallyExposedValue": true,
+      "sepoliaBalanceEth": "0.000022951579014",
+      "sepoliaTransactionCount": 1270,
+      "accessChecks": {
+        "legacyApplication": {
+          "address": "0x81f11fB35a79ed025d271C1d4e7a27c2227B37F3",
+          "governance": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+          "isGovernance": true,
+          "roles": {
+            "ADMIN": true,
+            "REGISTRAR": true,
+            "AUDITOR": true,
+            "MINTER": true
+          },
+          "blacklisted": false
+        },
+        "augustFrozen": {
+          "address": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+          "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "isGovernance": false,
+          "roles": {
+            "ADMIN": false,
+            "REGISTRAR": false,
+            "AUDITOR": false,
+            "MINTER": false
+          },
+          "blacklisted": false
+        },
+        "october": {
+          "address": "0x81a1bf95dcD475B67a11E8d381877BC78D6383B1",
+          "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "isGovernance": false,
+          "roles": {
+            "ADMIN": false,
+            "REGISTRAR": false,
+            "AUDITOR": false,
+            "MINTER": false
+          },
+          "blacklisted": false
+        }
+      },
+      "isOctoberCampaignIdentity": false
+    },
+    {
+      "field": "PRIVATE_KEY_B",
+      "address": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+      "configured": true,
+      "matchesHistoricallyExposedValue": true,
+      "sepoliaBalanceEth": "0.000022951579014",
+      "sepoliaTransactionCount": 1270,
+      "accessChecks": {
+        "legacyApplication": {
+          "address": "0x81f11fB35a79ed025d271C1d4e7a27c2227B37F3",
+          "governance": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+          "isGovernance": true,
+          "roles": {
+            "ADMIN": true,
+            "REGISTRAR": true,
+            "AUDITOR": true,
+            "MINTER": true
+          },
+          "blacklisted": false
+        },
+        "augustFrozen": {
+          "address": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+          "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "isGovernance": false,
+          "roles": {
+            "ADMIN": false,
+            "REGISTRAR": false,
+            "AUDITOR": false,
+            "MINTER": false
+          },
+          "blacklisted": false
+        },
+        "october": {
+          "address": "0x81a1bf95dcD475B67a11E8d381877BC78D6383B1",
+          "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "isGovernance": false,
+          "roles": {
+            "ADMIN": false,
+            "REGISTRAR": false,
+            "AUDITOR": false,
+            "MINTER": false
+          },
+          "blacklisted": false
+        }
+      },
+      "isOctoberCampaignIdentity": false
+    },
+    {
+      "field": "historicallyExposed:PRIVATE_KEY",
+      "address": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+      "configured": true,
+      "matchesHistoricallyExposedValue": true,
+      "sourceCommit": "bcc7fcf4cc5056a96b4ef9da8dfbd5c30d90f54f",
+      "sepoliaBalanceEth": "0.000022951579014",
+      "sepoliaTransactionCount": 1270,
+      "accessChecks": {
+        "legacyApplication": {
+          "address": "0x81f11fB35a79ed025d271C1d4e7a27c2227B37F3",
+          "governance": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+          "isGovernance": true,
+          "roles": {
+            "ADMIN": true,
+            "REGISTRAR": true,
+            "AUDITOR": true,
+            "MINTER": true
+          },
+          "blacklisted": false
+        },
+        "augustFrozen": {
+          "address": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+          "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "isGovernance": false,
+          "roles": {
+            "ADMIN": false,
+            "REGISTRAR": false,
+            "AUDITOR": false,
+            "MINTER": false
+          },
+          "blacklisted": false
+        },
+        "october": {
+          "address": "0x81a1bf95dcD475B67a11E8d381877BC78D6383B1",
+          "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "isGovernance": false,
+          "roles": {
+            "ADMIN": false,
+            "REGISTRAR": false,
+            "AUDITOR": false,
+            "MINTER": false
+          },
+          "blacklisted": false
+        }
+      },
+      "isOctoberCampaignIdentity": false
+    }
+  ],
+  "octoberIdentities": {
+    "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+    "unprivileged_relay": "0xa37F865ad327Bbf6B00D38FC88aF35095DB4D5E2",
+    "groth16_relay": "0xdDa6837837dbd02eB3908CbFBCd91747Ce438B89",
+    "publisher": "0x4E1D6f46170AE1F951156B922b42200d27ba5818",
+    "reserve": "0x7e9D15EF87E5A5F126d931d40e29cb64192f4c98"
+  },
+  "privateKeyRevocationPossible": false,
+  "transactionsBroadcast": 0,
+  "fullRemediationConfirmed": false
+}

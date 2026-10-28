@@ -1,8 +1,8 @@
 # BCRA-D-26-00984 — Technical handover, 28 October 2026
 
-The October Sepolia experiment dataset is unchanged: **1,975 measured transaction outcomes**, including expected adversarial reverts. This handover addresses the five requested documentation/analysis items without another public-network experimental campaign. The local gas diagnostic is explicitly separate from the experiment count.
+The October Sepolia experiment dataset is unchanged: **1,975 measured transaction outcomes**, including expected adversarial reverts. This handover indexes the supporting analysis and implementation specification. No additional public-network campaign is included. The local gas diagnostic is explicitly separate from the experiment count.
 
-| Requested item | Deliverable | Status |
+| Evidence category | Deliverable | Scope |
 |---|---|---|
 | Gas schedule explanation | [Gas explanation](GAS_SCHEDULE_EXPLANATION_EN.md), bytecode table and controlled-replay evidence | Completed for campaign comparison; exact reconciliation demonstrated for four representative ungated transactions, not every gated transaction |
 | Evidence-linked security matrix | [Security matrix](SECURITY_MATRIX_EN.md), full transaction evidence CSV | Completed with demonstrated guarantee / limitation / not-tested distinctions |
@@ -14,4 +14,4 @@ The principal new gas finding is that exact ungated bytecode and recorded callda
 
 The original description “independent audit” has been corrected to **receipt re-fetch audit**. Performance cells have ten trials; adversarial and ablation conditions generally have five; lifecycle curves have three independent histories. Do not report a uniform n=10.
 
-Outstanding external actions are explicitly retained: author agreement on EIP-712/Signed-ZK positioning; manuscript integration, formal analysis and literature assessment by their assigned authors; and editor confirmation of any extension. The original submission deadline remains 5 November unless an extension is confirmed.
+Historical evidence is indexed in `historical/README.md` at the repository root. October is the primary comparative dataset; earlier observations remain separately identified. Credential-remediation scope is documented in `SECURITY_STATUS.md` at the repository root.

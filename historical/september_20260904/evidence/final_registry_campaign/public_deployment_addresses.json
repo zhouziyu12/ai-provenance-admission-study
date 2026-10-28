@@ -1,0 +1,18 @@
+{
+  "runId": "20260821T135455148Z",
+  "identities": {
+    "governance": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+    "unprivileged_relay": "0xa37F865ad327Bbf6B00D38FC88aF35095DB4D5E2",
+    "groth16_relay": "0xdDa6837837dbd02eB3908CbFBCd91747Ce438B89",
+    "publisher": "0x4E1D6f46170AE1F951156B922b42200d27ba5818"
+  },
+  "contracts": {
+    "access": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+    "registry": "0x3123cd98586f12Ffbc48BA4a9a662Eeb8EF94690",
+    "verifier": "0x19b9a932aBE994794E0a1C73C9a14D1c1E8Df121",
+    "ungated": "0x4e8C04891c15BE8793b7B8B1a0A4C0e8f7F2377B",
+    "eip712": "0x7286231542EAFF96bE93946159Dd7BA440449428",
+    "groth16": "0xfEeC7bff9766b241D24297845fA12e9Ea0bf1f3a",
+    "passive": "0x937AEd76ce9c7ac0eaF0F225C50B852B30D6Ea1c"
+  }
+}

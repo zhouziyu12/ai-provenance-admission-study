@@ -12,3 +12,7 @@ state.json
 last_error.json
 reviewer_package_20261028/
 *.zip
+artifacts/
+cache/
+reviewer_test_results/
+offline_validation.json

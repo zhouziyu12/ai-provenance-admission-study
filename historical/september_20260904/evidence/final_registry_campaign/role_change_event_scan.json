@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "2.0",
+  "generatedAt": "2026-09-04T13:43:23.251Z",
+  "network": "sepolia",
+  "chainId": 11155111,
+  "accessControlContract": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+  "campaignRange": {
+    "fromBlock": 11536485,
+    "toBlock": 11536745
+  },
+  "campaignScans": [
+    {
+      "contractName": "ModelAccessControl",
+      "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+      "eventName": "RoleGranted",
+      "eventTopic": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+      "blockRange": {
+        "fromBlock": 11536485,
+        "toBlock": 11536745
+      },
+      "expectedCount": 0,
+      "observedCount": 0,
+      "passed": true,
+      "logs": []
+    },
+    {
+      "contractName": "ModelAccessControl",
+      "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+      "eventName": "RoleRevoked",
+      "eventTopic": "0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b",
+      "blockRange": {
+        "fromBlock": 11536485,
+        "toBlock": 11536745
+      },
+      "expectedCount": 0,
+      "observedCount": 0,
+      "passed": true,
+      "logs": []
+    }
+  ],
+  "setupPositiveControl": {
+    "contractName": "ModelAccessControl",
+    "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+    "eventName": "RoleGranted",
+    "eventTopic": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+    "blockRange": {
+      "fromBlock": 11536440,
+      "toBlock": 11536484
+    },
+    "expectedCount": 2,
+    "observedCount": 2,
+    "passed": true,
+    "logs": [
+      {
+        "eventName": "RoleGranted",
+        "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+        "blockNumber": 11536447,
+        "transactionHash": "0xec3472d5ec244717065b30cd41f4a286ae267b417cc3f85223b1351b2f82807d",
+        "transactionIndex": 91,
+        "logIndex": 330,
+        "blockHash": "0xdfe6d74b4cd39938eda351170270c0956f8071b3612352759f567547442e2e9e",
+        "topics": [
+          "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+          "0xd6b769dbdbf190871759edfb79bd17eda0005e1b8c3b6b3f5b480b5604ad5014",
+          "0x000000000000000000000000c30b911ac1a7a225ebb8a0449050d48137771e2c",
+          "0x000000000000000000000000c30b911ac1a7a225ebb8a0449050d48137771e2c"
+        ],
+        "data": "0x",
+        "args": {
+          "role": "0xd6b769dbdbf190871759edfb79bd17eda0005e1b8c3b6b3f5b480b5604ad5014",
+          "account": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "grantedBy": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C"
+        }
+      },
+      {
+        "eventName": "RoleGranted",
+        "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+        "blockNumber": 11536448,
+        "transactionHash": "0x63fdb343ddd7cb1273135eb960fa437e312ae74a1a224bdbef478d2b10845440",
+        "transactionIndex": 101,
+        "logIndex": 144,
+        "blockHash": "0x45b8049ad84e80e1b1f22a0c53e8e4ec610f313029b54642bd900518845b4d16",
+        "topics": [
+          "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+          "0xd6b769dbdbf190871759edfb79bd17eda0005e1b8c3b6b3f5b480b5604ad5014",
+          "0x000000000000000000000000dda6837837dbd02eb3908cbfbcd91747ce438b89",
+          "0x000000000000000000000000c30b911ac1a7a225ebb8a0449050d48137771e2c"
+        ],
+        "data": "0x",
+        "args": {
+          "role": "0xd6b769dbdbf190871759edfb79bd17eda0005e1b8c3b6b3f5b480b5604ad5014",
+          "account": "0xdDa6837837dbd02eB3908CbFBCd91747Ce438B89",
+          "grantedBy": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C"
+        }
+      }
+    ]
+  },
+  "extendedPositiveControl": {
+    "contractName": "ModelAccessControl",
+    "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+    "eventName": "RoleGranted",
+    "eventTopic": "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+    "blockRange": {
+      "fromBlock": 11536438,
+      "toBlock": 11536484
+    },
+    "expectedCount": 3,
+    "observedCount": 3,
+    "passed": true,
+    "logs": [
+      {
+        "eventName": "RoleGranted",
+        "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+        "blockNumber": 11536438,
+        "transactionHash": "0x33fba07c01c5912f00897135b79032b965f18259bb5b0bb65a9606ce0255df48",
+        "transactionIndex": 155,
+        "logIndex": 429,
+        "blockHash": "0x10e1ded9bafbfc481a38b3910477e73fdcd144385b8c144a8f58dad675dc7938",
+        "topics": [
+          "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+          "0xdf8b4c520ffe197c5343c6f5aec59570151ef9a492f2c624fd45ddde6135ec42",
+          "0x000000000000000000000000c30b911ac1a7a225ebb8a0449050d48137771e2c",
+          "0x000000000000000000000000c30b911ac1a7a225ebb8a0449050d48137771e2c"
+        ],
+        "data": "0x",
+        "args": {
+          "role": "0xdf8b4c520ffe197c5343c6f5aec59570151ef9a492f2c624fd45ddde6135ec42",
+          "account": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "grantedBy": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C"
+        }
+      },
+      {
+        "eventName": "RoleGranted",
+        "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+        "blockNumber": 11536447,
+        "transactionHash": "0xec3472d5ec244717065b30cd41f4a286ae267b417cc3f85223b1351b2f82807d",
+        "transactionIndex": 91,
+        "logIndex": 330,
+        "blockHash": "0xdfe6d74b4cd39938eda351170270c0956f8071b3612352759f567547442e2e9e",
+        "topics": [
+          "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+          "0xd6b769dbdbf190871759edfb79bd17eda0005e1b8c3b6b3f5b480b5604ad5014",
+          "0x000000000000000000000000c30b911ac1a7a225ebb8a0449050d48137771e2c",
+          "0x000000000000000000000000c30b911ac1a7a225ebb8a0449050d48137771e2c"
+        ],
+        "data": "0x",
+        "args": {
+          "role": "0xd6b769dbdbf190871759edfb79bd17eda0005e1b8c3b6b3f5b480b5604ad5014",
+          "account": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C",
+          "grantedBy": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C"
+        }
+      },
+      {
+        "eventName": "RoleGranted",
+        "contractAddress": "0xF8F25A9328dFEF81EAefAc13DcBEEFC7cAbeF690",
+        "blockNumber": 11536448,
+        "transactionHash": "0x63fdb343ddd7cb1273135eb960fa437e312ae74a1a224bdbef478d2b10845440",
+        "transactionIndex": 101,
+        "logIndex": 144,
+        "blockHash": "0x45b8049ad84e80e1b1f22a0c53e8e4ec610f313029b54642bd900518845b4d16",
+        "topics": [
+          "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+          "0xd6b769dbdbf190871759edfb79bd17eda0005e1b8c3b6b3f5b480b5604ad5014",
+          "0x000000000000000000000000dda6837837dbd02eb3908cbfbcd91747ce438b89",
+          "0x000000000000000000000000c30b911ac1a7a225ebb8a0449050d48137771e2c"
+        ],
+        "data": "0x",
+        "args": {
+          "role": "0xd6b769dbdbf190871759edfb79bd17eda0005e1b8c3b6b3f5b480b5604ad5014",
+          "account": "0xdDa6837837dbd02eB3908CbFBCd91747Ce438B89",
+          "grantedBy": "0xC30B911ac1A7a225EbB8a0449050d48137771E2C"
+        }
+      }
+    ]
+  },
+  "noRoleChangesDuringCampaignSpan": true,
+  "allAssertionsPassed": true
+}

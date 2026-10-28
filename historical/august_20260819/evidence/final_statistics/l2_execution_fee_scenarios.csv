@@ -1,0 +1,17 @@
+variant,operation,measured_mean_gas,assumed_execution_gas_price_gwei,estimated_execution_fee_eth,excludes_l1_data_fee
+ungated,first,600743.8,0.01,6.007438000000002e-06,True
+ungated,first,600743.8,0.1,6.007438000000001e-05,True
+ungated,append,605464.8,0.01,6.054648000000001e-06,True
+ungated,append,605464.8,0.1,6.054648000000001e-05,True
+eip712,first,635741.6,0.01,6.357416000000001e-06,True
+eip712,first,635741.6,0.1,6.357416000000001e-05,True
+eip712,append,640461.4,0.01,6.404614000000001e-06,True
+eip712,append,640461.4,0.1,6.404614000000001e-05,True
+groth16,first,859932.2,0.01,8.599322000000001e-06,True
+groth16,first,859932.2,0.1,8.599322e-05,True
+groth16,append,865514.8,0.01,8.655148e-06,True
+groth16,append,865514.8,0.1,8.655148000000001e-05,True
+passive,first,641863.8,0.01,6.418638000000001e-06,True
+passive,first,641863.8,0.1,6.418638000000001e-05,True
+passive,append,623872.8,0.01,6.238728000000002e-06,True
+passive,append,623872.8,0.1,6.238728e-05,True

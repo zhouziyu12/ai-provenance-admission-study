@@ -12,7 +12,7 @@ The ABI and transaction calldata still contain proof points and public signals, 
 
 The signature binds the nullifier and metadata hash, not the exact Groth16 proof bytes. Proof randomisation for the same public inputs is not itself an owner-authorisation violation. The nullifier is a public commitment-derived identifier, not a formal identity-linked nullifier construction.
 
-Suggested positioning, subject to all authors' agreement: use EIP-712 as the practical owner-authorisation baseline, original Groth16 as the evaluated witness-consistency gate, and Signed-ZK as a hybrid extension combining owner authorisation, state checks and witness verification. Privacy-preserving predicates are future work; the deployed circuit does not yet implement them.
+Interpretation: use EIP-712 as the practical owner-authorisation baseline, original Groth16 as the evaluated witness-consistency gate, and Signed-ZK as a hybrid extension combining owner authorisation, state checks and witness verification. Privacy-preserving predicates are future work; the deployed circuit does not yet implement them.
 
 Representative attack evidence:
 - E7/signedProof/0/full/attack: reverted, [0xc99ba4aa52…](https://sepolia.etherscan.io/tx/0xc99ba4aa52e2429e22720c759df1b3088a1061535a35ae01da4ac222687e51e5).

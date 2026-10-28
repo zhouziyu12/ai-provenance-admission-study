@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-28T08:55:31.649941+00:00",
+  "historicalFilesRecovered": 118,
+  "historicalSourceHashesVerified": true,
+  "realProofGenerationAndVerificationPassed": true,
+  "offlineReceiptChecks": 37584,
+  "suppliedTransactionReceiptPairs": 2496,
+  "octoberMeasuredRows": 1975,
+  "statisticalCSVsByteIdentical": 10,
+  "historicalSeptemberPythonSDKTestsPassed": 2,
+  "newPublicChainExperiments": 0,
+  "onChainPermissionChanges": 0,
+  "credentialRemediationComplete": false,
+  "zenodoDOIAssigned": false
+}

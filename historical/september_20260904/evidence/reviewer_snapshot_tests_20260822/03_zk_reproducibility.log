@@ -1,0 +1,75 @@
+{
+  "timestamp": "2026-08-22T09:36:10.862Z",
+  "relation": "commitment = Poseidon(secret, modelId, statementHash)",
+  "publicSignalOrder": [
+    "commitment-derived nullifier",
+    "modelId",
+    "statementHash"
+  ],
+  "verified": true,
+  "checks": [
+    {
+      "check": "checksum",
+      "artifact": "zk/circuit.circom",
+      "status": "PASS"
+    },
+    {
+      "check": "checksum",
+      "artifact": "zk/build/circuit.r1cs",
+      "status": "PASS"
+    },
+    {
+      "check": "checksum",
+      "artifact": "zk/circuit_final.zkey",
+      "status": "PASS"
+    },
+    {
+      "check": "checksum",
+      "artifact": "zk/verification_key.json",
+      "status": "PASS"
+    },
+    {
+      "check": "checksum",
+      "artifact": "zk/build/circuit_js/circuit.wasm",
+      "status": "PASS"
+    },
+    {
+      "check": "checksum",
+      "artifact": "zk/build/circuit_js/generate_witness.js",
+      "status": "PASS"
+    },
+    {
+      "check": "checksum",
+      "artifact": "zk/build/circuit_js/witness_calculator.js",
+      "status": "PASS"
+    },
+    {
+      "check": "checksum",
+      "artifact": "contracts/Verifier.sol",
+      "status": "PASS"
+    },
+    {
+      "check": "proof_generation",
+      "status": "PASS"
+    },
+    {
+      "check": "proof_verification",
+      "status": "PASS"
+    },
+    {
+      "check": "public_signal_0",
+      "meaning": "Poseidon(secret, modelId, statementHash)",
+      "status": "PASS"
+    },
+    {
+      "check": "public_signal_1",
+      "meaning": "modelId",
+      "status": "PASS"
+    },
+    {
+      "check": "public_signal_2",
+      "meaning": "statementHash",
+      "status": "PASS"
+    }
+  ]
+}

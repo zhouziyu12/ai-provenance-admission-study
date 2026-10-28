@@ -1,0 +1,31 @@
+{
+  "sepolia": {
+    "deployer": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+    "contracts": {
+      "ModelAccessControl": "0x81f11fB35a79ed025d271C1d4e7a27c2227B37F3",
+      "ModelRegistry": "0x487C02203D72b378a69F47daC0957c0c3354C9aC",
+      "Groth16Verifier": "0xE1639d60F78F4Ba37C2D00BCD3612cAfD858af17",
+      "ModelProvenanceTracker": "0x29F7dD3f13cB0AC3AD7Bb30696E5dC54FdA78433",
+      "ZKProvenanceTracker": "0xCaE0d0ff07DfC0cdd21e9Ddb2813dA66931bC5cD",
+      "SignatureGatedProvenanceTracker": "0xEBE2dF8cd5006A39275bFb66D39bC70997411f7F",
+      "ModelAuditLog": "0x78483775fB4fE3fF6e16b1E0349ac2576fa379a9",
+      "ModelNFT": "0x0c0fEEe0905Ce3bEf2398F0901cf409BA33d0102",
+      "ModelStaking": "0x9d61cb24661e765b52E7E679e2CD0c8dEeC69D73"
+    },
+    "timestamp": "2026-04-15T11:02:52.422Z"
+  },
+  "tbnb": {
+    "deployer": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+    "contracts": {
+      "ModelAccessControl": "0x4FA4C2176750F6FfB8864b8086432C6Cdd1fFFc6",
+      "ModelRegistry": "0x8d32A2dcBDa306c678cab2370F3dafA3E1D46948",
+      "Groth16Verifier": "0x7054577279D496DcF00E37FdBe9a192631e195D4",
+      "ModelProvenanceTracker": "0xFF29f9100d0142e0E3324547Af12a91f173f069E",
+      "ZKProvenanceTracker": "0x947a547ad9da78E12c3F2F4e1197787ADD9Ff61a",
+      "ModelAuditLog": "0x5e502baC7D8379B481c0e2fD8A0c052d8F151959",
+      "ModelNFT": "0x5a802AE610D3F9640446d5511Bc303C8ea5Ffa24",
+      "ModelStaking": "0x4b7ede20bE885E11A57a4F4Af6103bA6c298d337"
+    },
+    "timestamp": "2026-04-15T11:03:53.481Z"
+  }
+}

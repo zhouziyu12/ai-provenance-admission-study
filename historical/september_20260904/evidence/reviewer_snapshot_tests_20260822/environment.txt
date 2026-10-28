@@ -1,0 +1,5 @@
+node=v24.13.1
+npm=11.8.0
+python=Python 3.13.9
+os=Microsoft Windows NT 10.0.26200.0
+clean_room_source=reviewer_clean_snapshot_20260821

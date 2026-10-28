@@ -1,6 +1,6 @@
 # Reviewer-comment evidence map
 
-This mapping follows the review concerns as supplied and the coordinator’s five-item request. It is an evidence handover, not a claim that every reviewer comment has been answered in the manuscript.
+This mapping indexes the review concerns addressed by the implementation and evidence. It is an evidence handover, not a claim that every reviewer comment has been answered in the manuscript.
 
 | Concern | Experiments | Finding / material | Location |
 |---|---|---|---|
@@ -11,6 +11,6 @@ This mapping follows the review concerns as supplied and the coordinator’s fiv
 | R1: runtime and metadata/lifecycle sensitivity | E6, E8, E9 SDK | Five implementations, size grid, three histories, full SDK timing | ../official_record/SEPOLIA_EXPERIMENT_REPORT_EN.md; REPRODUCIBILITY_EN.md |
 | R1: reviewer reproducibility | All | Clean snapshot, scripts, transactions, artifact hashes; access status separate | REPRODUCIBILITY_EN.md; REPOSITORY_STATUS.md |
 | R2: stronger baseline and ablation | E6, E7 | Passive and identical-layout controls; twelve single-check ablations | ABLATION_INTERPRETATION_EN.md; ../official_record/paired_ablation_gas.csv |
-| R2: formal methodology and cryptographic analysis | Implementation-derived | Relation, signed messages, transition predicates, invariants and assumptions supplied to Ruoting | TECHNICAL_SPECIFICATION_EN.md |
+| R2: formal methodology and cryptographic analysis | Implementation-derived | Relation, signed messages, transition predicates, invariants and assumptions documented for formal analysis | TECHNICAL_SPECIFICATION_EN.md |
 | R1/R2: positioning, related work, language, response | Author revision work | Evidence supplied; manuscript integration and two-paper analysis are not completed by this package | TECHNICAL_HANDOVER_EN.md |
-| Elsaid: August–October gas discrepancy | Existing chain evidence + diagnostic replay | Activation, bytecode/settings comparison and numerical reconciliation | GAS_SCHEDULE_EXPLANATION_EN.md; gas_reconciliation.csv |
+| Historical August–October gas discrepancy | Existing chain evidence + diagnostic replay | Activation, bytecode/settings comparison and numerical reconciliation | GAS_SCHEDULE_EXPLANATION_EN.md; gas_reconciliation.csv |

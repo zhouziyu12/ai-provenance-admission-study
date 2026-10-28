@@ -1,0 +1,13 @@
+Server on port 3000
+[2026-08-22T09:36:16.690Z] GET /api/health
+[2026-08-22T09:36:16.696Z] GET /api/v2/status
+JsonRpcProvider failed to detect network and cannot start up; retry in 1s (perhaps the URL is wrong or the node is not started)
+[2026-08-22T09:36:17.683Z] GET /api/v2/models
+[2026-08-22T09:36:17.721Z] POST /api/auth/login
+[2026-08-22T09:36:17.757Z] POST /api/auth/login
+[2026-08-22T09:36:17.793Z] GET /api/auth/me
+[2026-08-22T09:36:17.814Z] POST /api/register
+[2026-08-22T09:36:17.838Z] POST /api/register
+[2026-08-22T09:36:17.853Z] POST /api/sdk/provenance
+[2026-08-22T09:36:17.886Z] POST /api/sdk/provenance/eip712
+JsonRpcProvider failed to detect network and cannot start up; retry in 1s (perhaps the URL is wrong or the node is not started)

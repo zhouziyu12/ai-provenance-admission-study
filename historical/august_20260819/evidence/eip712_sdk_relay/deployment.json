@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-08-19T15:28:03.424Z",
+  "network": "sepolia",
+  "chainId": 11155111,
+  "contract": "SignatureGatedProvenanceTracker",
+  "address": "0xEBE2dF8cd5006A39275bFb66D39bC70997411f7F",
+  "registry": "0x487C02203D72b378a69F47daC0957c0c3354C9aC",
+  "txHash": "0x644baf019d6f6a7ec20539cefe3bd7ad1401bb8643fb83a35737b0e5cefe6baf",
+  "blockNumber": 11522935,
+  "gasUsed": "1125235",
+  "deploymentMs": 12876,
+  "registryDerivedOwner": true
+}

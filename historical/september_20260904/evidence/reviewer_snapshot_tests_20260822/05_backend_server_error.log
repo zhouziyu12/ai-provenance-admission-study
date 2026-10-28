@@ -1,0 +1,3 @@
+[ERROR] POST /api/register: name must be a string
+[ERROR] POST /api/sdk/provenance: modelId must be a positive integer
+[ERROR] POST /api/sdk/provenance/eip712: modelId must be a positive integer

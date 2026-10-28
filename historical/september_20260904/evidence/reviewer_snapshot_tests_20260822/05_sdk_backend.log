@@ -1,0 +1,52 @@
+
+====================================
+  SDK and Backend Integration Tests
+  Started: 2026-08-22 17:36:16
+====================================
+
+=== Test Group 1: SDK Imports ===
+[PASS] SDK Import: ProvenanceSDK imported successfully
+[PASS] Secret Manager Import: ModelSecretManager imported successfully
+
+=== Test Group 2: Backend API ===
+[PASS] GET /api/health: Endpoint returned success=true
+[PASS] GET /api/health jwtSecretMode: Health endpoint reports jwtSecretMode=configured
+[PASS] GET /api/v2/status: Endpoint returned success=true
+[PASS] GET /api/v2/status zkEnforced: Backend reports verifier-gated provenance as enabled
+[PASS] GET /api/v2/status authStoreMode: Backend reports the hardened file-backed auth store mode
+[PASS] GET /api/v2/status jwtSecretMode: Status endpoint reports jwtSecretMode=configured
+[PASS] GET /api/v2/models: Endpoint returned success=true
+[PASS] GET /api/v2/models inventoryMode: Model list explicitly reports backend-index inventory semantics
+
+=== Test Group 2B: Backend Write Authentication ===
+[PASS] POST /api/auth/login: Login returned success=true and issued a JWT
+[PASS] GET /api/auth/me: Authenticated session resolves to a bound wallet address
+[PASS] POST /api/register without auth: Unauthenticated write rejected with 401
+[PASS] POST /api/register with auth: Authenticated write passed auth and failed at validation
+[PASS] POST /api/sdk/provenance with auth: Authenticated verifier-gated route rejected invalid payload at validation stage
+[PASS] POST /api/sdk/provenance/eip712 with auth: Signed route rejected invalid payload before relay use
+
+=== Test Group 3: Secret Manager ===
+[WARN] Secret Manager Tests: Command '['powershell', '-NoProfile', '-Command', '$plain = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($env:MODEL_SECRET_PLAINTEXT_B64));$secure = ConvertTo-SecureString $plain -AsPlainText -Force;$secure | ConvertFrom-SecureString']' returned non-zero exit status 1.
+
+=== Test Group 4: File Structure ===
+[PASS] File: server/server.js: Exists (76.02 KB)
+[PASS] File: sdk/python/provenance_sdk.py: Exists (23.67 KB)
+[PASS] File: sdk/python/model_secret_manager.py: Exists (8.46 KB)
+[PASS] File: test_zk_standalone.js: Exists (6.14 KB)
+[PASS] File: contracts/ModelAccessControl.sol: Exists (4.67 KB)
+[PASS] File: contracts/ModelRegistry.sol: Exists (14.68 KB)
+[PASS] File: contracts/SignatureGatedProvenanceTracker.sol: Exists (6.69 KB)
+[PASS] File: contracts/UngatedProvenanceTracker.sol: Exists (4.26 KB)
+[PASS] File: contracts/Verifier.sol: Exists (7.65 KB)
+[PASS] File: contracts/ZKProvenanceTracker.sol: Exists (8.70 KB)
+[PASS] File: scripts/verify_zk_reproducibility.mjs: Exists (3.26 KB)
+[PASS] File: tests/signature_gate.test.js: Exists (5.27 KB)
+[PASS] File: tests/test_eip712_sdk.py: Exists (2.98 KB)
+[WARN] SDK model resolution: Requires a deployed application and is outside the offline reviewer snapshot
+
+====================================
+  Results: 29 passed, 0 failed, 1 warned, 1 skipped
+====================================
+
+Results saved to: C:\Users\Tzuyu\Desktop\FYP\ai-project\_clean_room_reviewer_20260822_3\tests\results_sdk_backend.json

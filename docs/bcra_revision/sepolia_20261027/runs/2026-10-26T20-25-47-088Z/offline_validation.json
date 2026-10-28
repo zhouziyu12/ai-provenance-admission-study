@@ -4,7 +4,7 @@
   "chainId": 11155111,
   "measuredRows": 1975,
   "independentAssertions": 37584,
-  "observedAt": "2026-10-27T14:35:35.847Z",
+  "observedAt": "2026-10-28T08:52:02.158Z",
   "mode": "offline validation of supplied receipt re-fetch evidence",
   "scope": "Supplied RPC evidence validation; calldata, status, gas, signatures, events, deployment code, record hashes and group coverage checked. Performed by the experiment workflow, not an independent external audit.",
   "suppliedTransactionPairs": 2496

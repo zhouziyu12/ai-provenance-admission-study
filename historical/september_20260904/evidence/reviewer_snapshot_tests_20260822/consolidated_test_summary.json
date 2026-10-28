@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-08-22T09:35:41Z",
+  "workingDirectory": "C:\\Users\\Tzuyu\\Desktop\\FYP\\ai-project\\_clean_room_reviewer_20260822_3",
+  "suites": [
+    {
+      "name": "Hardhat compile",
+      "exitCode": 0,
+      "log": "reviewer_test_results/01_hardhat_compile.log"
+    },
+    {
+      "name": "Registry-derived EIP-712 contract",
+      "exitCode": 0,
+      "log": "reviewer_test_results/02_signature_gate.log"
+    },
+    {
+      "name": "ZK reproducibility",
+      "exitCode": 0,
+      "log": "reviewer_test_results/03_zk_reproducibility.log"
+    },
+    {
+      "name": "Python EIP-712 SDK",
+      "exitCode": 0,
+      "log": "reviewer_test_results/04_eip712_sdk.log"
+    },
+    {
+      "name": "SDK and backend snapshot mode",
+      "exitCode": 0,
+      "log": "reviewer_test_results/05_sdk_backend.log"
+    }
+  ],
+  "status": "passed"
+}
