@@ -1,0 +1,21 @@
+{
+  "github": {
+    "url": "https://github.com/zhouziyu12/ai-provenance-admission-study/releases/download/v1.0.0/ai-provenance-admission-study-v1.0.0.zip",
+    "anonymousHttpStatus": 200,
+    "downloadMatchesLocal": true,
+    "filesVerified": 292,
+    "archiveBytes": 18286780,
+    "sha256": "7548a3d8314b541cc383f30eef3c2eef8516eac8a1f22613dda3aa95f2988db5"
+  },
+  "zenodo": {
+    "doi": "10.5281/zenodo.23754155",
+    "url": "https://zenodo.org/records/23754155/files/zhouziyu12/ai-provenance-admission-study-v1.0.0.zip?download=1",
+    "anonymousHttpStatus": 200,
+    "filesVerified": 292,
+    "matchesTaggedManifest": true,
+    "archiveSha256": "6cb5fd88f1a1cd894301f6f1b4ff056597f997ef78b9885fcf94f71d693e4ce1",
+    "archiveBytes": 18739376,
+    "githubTag": "v1.0.0",
+    "githubCommit": "5dcb35468c8cdec284cac75d235d954034c907ec"
+  }
+}

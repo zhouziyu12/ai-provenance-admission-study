@@ -6,3 +6,5 @@
 - Regenerate the full snapshot checksum manifest and prepare this release for automatic Zenodo archiving.
 
 This is a research artifact, not a production security certification. No private keys, service credentials, encrypted keystores or original development Git history are included.
+
+Archived version DOI: https://doi.org/10.5281/zenodo.23754155
