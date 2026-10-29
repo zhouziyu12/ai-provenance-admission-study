@@ -21,3 +21,15 @@ The [inventory](docs/bcra_revision/sepolia_20261027/operational_20261029/wallet_
 The August frozen-campaign and October experimental deployments already gave the old address none of the four inspected roles and no governance authority. Their measured transactions and datasets were not modified by this operational migration. Historical observations in the October 28 inspection remain preserved as dated evidence.
 
 The old local signing fields remain cleared. No server restart or production deployment is claimed. Use a protected local signer for any future operation; do not restore the exposed credentials.
+
+## Archived researcher login — maintenance check, 30 October 2026
+
+Both historical server.js snapshots contain a publicly disclosed default researcher login. It is a retired test credential, not a supported login for a live service. Do not deploy these archived backends unchanged or reuse their default credentials.
+
+A read-only inspection of the local Windows host found no matching project backend process, no listener on its configured port 3000, and no matching scheduled task, Windows service or inspected startup entry. No running WSL distribution or Docker container was reported. This establishes the observed local state; it is not a cloud-provider inventory. The account owner recalls no remaining cloud server, but this was not independently verified.
+
+The local development copy still retained the researcher account. After encrypted local backups, the account was disabled in both the legacy user file and current authentication store, token versions were incremented, and automatic creation of a shared default account was removed from the local development source. Post-change file checks and JavaScript syntax validation passed. No backend was started for this check; no HTTP login test is claimed.
+
+The account owner explicitly confirmed that this password has not been used for other accounts. That confirmation is distinct from the technical inspection; external account passwords were not collected or inspected.
+
+The archived sources, experimental datasets, existing release tags and Zenodo records remain unchanged. This maintenance update documents retirement rather than attempting to erase an already public credential. The local development safeguard is not a modification of the preserved archival server.js files.

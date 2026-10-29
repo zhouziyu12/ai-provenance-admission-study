@@ -1,0 +1,13 @@
+{
+  "checkedLocalDate": "2026-10-30",
+  "scope": "Local Windows host; no cloud-provider inventory audited",
+  "matchingBackendProcessCount": 0,
+  "port3000ListenerCount": 0,
+  "matchingScheduledTaskCount": 0,
+  "matchingServiceCount": 0,
+  "defaultAccountDisabledInBothLocalStores": true,
+  "defaultSeedingRemovedFromLocalDevelopmentSource": true,
+  "passwordNonReuse": "Account owner explicitly confirmed no use in other accounts",
+  "cloudStatus": "Account owner recalls no remaining cloud server; not independently verified",
+  "historicalSourcesUnmodified": true
+}
