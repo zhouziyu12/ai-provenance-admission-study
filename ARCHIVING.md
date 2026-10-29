@@ -23,3 +23,5 @@ The immutable tag was prepared before the DOI was assigned, so its documentation
 `CITATION.cff` identifies the software maintainer, not the complete manuscript author list. Operational wallet migration remains separate from the measured experimental dataset. See SECURITY_STATUS.md for its dated scope and completed migration.
 
 Anonymous downloads of both archives succeeded. All 292 tagged file hashes matched, and each archive contained exactly the tagged manifest plus its named files. See [verification evidence](docs/bcra_revision/sepolia_20261027/operational_20261029/archival_verification.json).
+
+Published v1.0.1 archive: https://doi.org/10.5281/zenodo.23762994. Zenodo metadata confirms version v1.0.1. The local release snapshot passed all 293 file checks; a complete independent download of this new Zenodo ZIP was not obtained due to slow transfer. The version tag remains immutable; this citation update is on main only.

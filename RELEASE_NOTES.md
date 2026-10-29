@@ -7,3 +7,5 @@
 - Update the scoped security status and regenerate snapshot checksums. Provider-dashboard deletion of the old Infura key remains account-owner reported; the historical-key scan did not identify a distinct secondary address.
 
 This is a scoped remediation of known project testnet deployments, not an audit of unrelated accounts or a production security certification. No private keys, credentials or keystores are distributed. Earlier releases remain immutable.
+
+Version DOI: https://doi.org/10.5281/zenodo.23762994
