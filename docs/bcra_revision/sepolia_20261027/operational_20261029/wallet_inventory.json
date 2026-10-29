@@ -1,0 +1,384 @@
+{
+  "checkedAt": "2026-10-29T04:40:15.021Z",
+  "historyCommitCount": 23,
+  "discoveredLiteralKeyAddresses": [
+    {
+      "address": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+      "sources": [
+        {
+          "commit": "bcc7fcf4cc5056a96b4ef9da8dfbd5c30d90f54f",
+          "file": "docs/DEPLOY_GUIDE.md",
+          "line": 75
+        },
+        {
+          "commit": "bcc7fcf4cc5056a96b4ef9da8dfbd5c30d90f54f",
+          "file": "docs/DEPLOY_GUIDE.md",
+          "line": 76
+        },
+        {
+          "commit": "2287c9f87a890a1bd089db1db1a80db81368dcd5",
+          "file": "docs/DEPLOY_GUIDE.md",
+          "line": 75
+        },
+        {
+          "commit": "2287c9f87a890a1bd089db1db1a80db81368dcd5",
+          "file": "docs/DEPLOY_GUIDE.md",
+          "line": 76
+        },
+        {
+          "commit": "2254f43c8cbecb9e6e0fbc42059a7c5da31a808f",
+          "file": "docs/DEPLOY_GUIDE.md",
+          "line": 75
+        },
+        {
+          "commit": "2254f43c8cbecb9e6e0fbc42059a7c5da31a808f",
+          "file": "docs/DEPLOY_GUIDE.md",
+          "line": 76
+        }
+      ]
+    }
+  ],
+  "replacementAddress": "0x0712aCC33dfe9883D93f131156A7511A09F5284B",
+  "chains": {
+    "sepolia": {
+      "chainId": 11155111,
+      "blockNumber": 12017168,
+      "blockHash": "0x35802cd9e609a13ef8baa2502e220154ba19a1044d0dd1b97851d026a8ac259e",
+      "access": "0x81f11fB35a79ed025d271C1d4e7a27c2227B37F3",
+      "registry": "0x487C02203D72b378a69F47daC0957c0c3354C9aC",
+      "nft": "0x0c0fEEe0905Ce3bEf2398F0901cf409BA33d0102",
+      "staking": "0x9d61cb24661e765b52E7E679e2CD0c8dEeC69D73",
+      "governance": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+      "treasury": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+      "totalStaked": "0",
+      "wallets": [
+        {
+          "address": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+          "nativeBalance": "0.000022951579014",
+          "roles": {
+            "ADMIN": true,
+            "REGISTRAR": true,
+            "AUDITOR": true,
+            "MINTER": true
+          },
+          "blacklisted": false,
+          "models": [
+            {
+              "modelId": 3,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 9,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 10,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 11,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 12,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 13,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 14,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 15,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 16,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 17,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 18,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 19,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 20,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 21,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 22,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 23,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 24,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 25,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 26,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 27,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 28,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 29,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 30,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 31,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 32,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 33,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 34,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 35,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 36,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 38,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 39,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 40,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 41,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            },
+            {
+              "modelId": 64,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 0,
+              "staked": false
+            }
+          ],
+          "nftIds": [
+            "6"
+          ]
+        },
+        {
+          "address": "0x0712aCC33dfe9883D93f131156A7511A09F5284B",
+          "nativeBalance": "0.0",
+          "roles": {
+            "ADMIN": false,
+            "REGISTRAR": false,
+            "AUDITOR": false,
+            "MINTER": false
+          },
+          "blacklisted": false,
+          "models": [],
+          "nftIds": []
+        }
+      ],
+      "modelCount": 64
+    },
+    "tbnb": {
+      "chainId": 97,
+      "blockNumber": 139551199,
+      "blockHash": "0x7adf399999f1077ed991f8426b73f69615c10135ac0a7bf04bf25d7f84d309db",
+      "access": "0x4FA4C2176750F6FfB8864b8086432C6Cdd1fFFc6",
+      "registry": "0x8d32A2dcBDa306c678cab2370F3dafA3E1D46948",
+      "nft": "0x5a802AE610D3F9640446d5511Bc303C8ea5Ffa24",
+      "staking": "0x4b7ede20bE885E11A57a4F4Af6103bA6c298d337",
+      "governance": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+      "treasury": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+      "totalStaked": "0",
+      "wallets": [
+        {
+          "address": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+          "nativeBalance": "9.9851439828",
+          "roles": {
+            "ADMIN": true,
+            "REGISTRAR": true,
+            "AUDITOR": true,
+            "MINTER": true
+          },
+          "blacklisted": false,
+          "models": [
+            {
+              "modelId": 1,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 2,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 3,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 4,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 5,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 6,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 7,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            },
+            {
+              "modelId": 8,
+              "owner": "0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1",
+              "status": 1,
+              "staked": false
+            }
+          ],
+          "nftIds": []
+        },
+        {
+          "address": "0x0712aCC33dfe9883D93f131156A7511A09F5284B",
+          "nativeBalance": "0.0",
+          "roles": {
+            "ADMIN": false,
+            "REGISTRAR": false,
+            "AUDITOR": false,
+            "MINTER": false
+          },
+          "blacklisted": false,
+          "models": [],
+          "nftIds": []
+        }
+      ],
+      "modelCount": 8
+    }
+  },
+  "scope": "Known project deployments on Sepolia and BNB testnet; history scan detects literal labelled ECDSA keys only. No global asset/credential audit.",
+  "transactionsBroadcast": 0
+}

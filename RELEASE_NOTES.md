@@ -1,10 +1,8 @@
-# v1.0.0-reviewer.1 — Reviewer evidence snapshot
+# v1.0.0 — Versioned research evidence and operational handover
 
-- October primary evidence: 1,975 measured Sepolia outcomes, five implementations, twelve ablations and nine SDK/IPFS uploads; measured results are unchanged.
-- Restore separately indexed August end-to-end/rejection evidence and the September 4 frozen backend, SDK, tests, lockfiles and campaign audit records.
-- Disclose that August relay/user_01 shared an address; owner-field handling is not proof of relay-resistant owner authorisation. Use October E4/E9 for that claim.
-- Preserve the October-only performance comparison and the limits of cross-campaign gas replay, including EIP-712 runtime-bytecode differences.
-- Update the repository name, remove current internal coordination notes, supply per-file source provenance and regenerate the complete snapshot checksum manifest.
-- Add software citation metadata and an explicit DOI-pending archival note.
+- Preserve the 1,975 October Sepolia outcomes, five implementations, twelve ablations and nine real IPFS uploads without changing measured evidence.
+- Retain the separately indexed August evidence and September frozen backend, tests and source provenance, with the owner-spoofing and cross-campaign bytecode qualifications.
+- Add dated credential checks and a separate legacy testnet wallet-migration journal. See SECURITY_STATUS.md for verified scope and limitations.
+- Regenerate the full snapshot checksum manifest and prepare this release for automatic Zenodo archiving.
 
-Credential and legacy-wallet remediation is not certified complete. See SECURITY_STATUS.md. No new experimental campaign or on-chain permission change was performed for this release. No private keys, service credentials, keystores or original development Git history are included.
+This is a research artifact, not a production security certification. No private keys, service credentials, encrypted keystores or original development Git history are included.

@@ -57,4 +57,4 @@ Keep October-only cost comparisons separate from August. The EIP-712 runtime byt
 
 ## Version and citation
 
-Reviewer snapshot: `v1.0.0-reviewer.1`. See [release notes](RELEASE_NOTES.md), [citation metadata](CITATION.cff) and [archiving status](ARCHIVING.md). No Zenodo DOI has been minted. The archive is a research snapshot; legacy wallet remediation remains separate from experimental reproducibility.
+Reviewer snapshot: `v1.0.0`. See [release notes](RELEASE_NOTES.md), [citation metadata](CITATION.cff) and [archiving status](ARCHIVING.md). Zenodo integration is enabled; consult ARCHIVING.md for the verified DOI once ingestion completes. The archive is a research snapshot; legacy wallet remediation remains separate from experimental reproducibility.

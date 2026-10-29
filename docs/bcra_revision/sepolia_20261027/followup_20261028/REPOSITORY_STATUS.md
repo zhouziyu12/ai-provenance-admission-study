@@ -6,6 +6,6 @@ The repository is public. It contains the October Sepolia campaign, its analysis
 
 `SHA256SUMS.json` covers the complete reviewer snapshot except itself. `historical/SOURCE_PROVENANCE.json` identifies original ZIP hashes, entry hashes and any credential redactions. Original Git history, live configuration, private keys and keystores are excluded.
 
-The tagged reviewer snapshot is `v1.0.0-reviewer.1`. Release assets provide a downloadable ZIP and its SHA-256 checksum. A Zenodo DOI has not yet been issued; no persistent DOI is claimed. See `CITATION.cff` and `ARCHIVING.md` in the repository root.
+The tagged reviewer snapshot is `v1.0.0`. Release assets provide a downloadable ZIP and its SHA-256 checksum. A Zenodo DOI has not yet been issued; no persistent DOI is claimed. See `CITATION.cff` and `ARCHIVING.md` in the repository root.
 
-Credential remediation is partial, not certified complete. The tested old service endpoints deny access; whole-key Infura deletion and legacy development-wallet remediation remain unconfirmed. See the dated, scoped findings in `SECURITY_STATUS.md`.
+Known legacy testnet administration has moved to a replacement wallet. See `SECURITY_STATUS.md` for asset-transfer completion, provider evidence, the secondary-key inspection scope and remaining limits. Operational changes are separate from frozen experiments.

@@ -5,10 +5,10 @@ title: "AI Provenance Admission Study: Sepolia Experimental Evidence"
 authors:
   - family-names: Zhou
     given-names: Ziyu
-version: "1.0.0-reviewer.1"
-date-released: "2026-10-28"
+version: "1.0.0"
+date-released: "2026-10-29"
 repository-code: "https://github.com/zhouziyu12/ai-provenance-admission-study"
-url: "https://github.com/zhouziyu12/ai-provenance-admission-study/releases/tag/v1.0.0-reviewer.1"
+url: "https://github.com/zhouziyu12/ai-provenance-admission-study/releases/tag/v1.0.0"
 license: MIT
 keywords:
   - model provenance

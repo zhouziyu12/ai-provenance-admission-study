@@ -1,13 +1,7 @@
 # Versioned archival status
 
-The GitHub reviewer snapshot is tagged `v1.0.0-reviewer.1`; release assets contain a ZIP and its SHA-256 checksum. The tag identifies a fixed research snapshot. This is not a production security certification or confirmation of complete legacy credential remediation.
+Version `v1.0.0` is the research snapshot prepared after enabling Zenodo's GitHub integration. The release ZIP and its external SHA-256 checksum identify the packaged evidence. `SHA256SUMS.json` covers all packaged files except itself.
 
-No Zenodo DOI is currently assigned. DOI metadata must not be inferred or invented. `CITATION.cff` provides software citation metadata using the repository maintainer; the manuscript author list is not asserted by this file.
+The integration ingests newly published releases. DOI assignment is pending at the time this immutable tag is prepared; the repository's current ARCHIVING.md and GitHub release description will carry the verified DOI after ingestion. No DOI is inferred or invented.
 
-Zenodo requires the account owner to link the GitHub account and enable this repository. Once enabled, newly published releases are ingested. If integration is enabled after this snapshot was released, archive its ZIP as a new upload with the exact GitHub tag/commit reference, or publish the next reviewed version after enabling integration. Verify the resulting record and DOI before citing it in the manuscript.
-
-Official instructions:
-- https://help.zenodo.org/docs/github/enable-repository/
-- https://help.zenodo.org/docs/github/archive-software/github-upload/
-
-Keep published versioned evidence immutable. Further corrections, including a confirmed credential-remediation update, should be a new commit/version with regenerated checksums.
+`CITATION.cff` identifies the software maintainer, not the complete manuscript author list. Operational wallet migration is not part of the measured experimental dataset. Older releases remain immutable.

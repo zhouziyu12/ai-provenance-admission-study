@@ -1,21 +1,23 @@
-# Credential and development-wallet status — 28 October 2026
+# Credential and development-wallet status — 29 October 2026
 
-This is a scoped remediation record, not a complete security audit. No private key, API credential, keystore or original development Git history is distributed in this repository. Research results are historical observations, not assurance that old deployed applications remain safe for continued use.
+This is a scoped operational remediation record, not a global security audit. These changes are separate from the frozen research datasets. No private key, credential, keystore or original development Git history is distributed.
 
 ## Service credentials
 
-The dated read-only checks in [credential evidence](docs/bcra_revision/sepolia_20261027/followup_20261028/evidence/latest_credential_validation_redacted.json) show replacement Pinata and Infura credentials working, old Pinata authentication denied (HTTP 403), and old Infura Sepolia access denied (HTTP 401). Mainnet and Hoodi disabling was reported by the account owner, not tested by that check. Deletion of the whole old Infura key has not been verified. Disabled network access is not equivalent to whole-key deletion.
+The [dated provider probes](docs/bcra_revision/sepolia_20261027/operational_20261029/credential_status_redacted.json) show old Pinata credentials rejected (HTTP 403), old Infura Sepolia access rejected (HTTP 401), and both replacements working. The account owner reported deleting the entire old Infura key on 29 October. Provider-dashboard deletion was not independently verified; endpoint rejection alone does not prove account-wide deletion.
 
-## Development wallets
+## Development wallet and secondary-key scope
 
-The August 21 record documents creation/use of a separate campaign wallet set and transfer of most native Sepolia funds from the old primary address. October used that replacement campaign set. At the current read-only check, the old primary address had none of ADMIN, REGISTRAR, AUDITOR or MINTER roles on the August frozen-campaign and October access-control deployments and was not their governance address.
+Replacement address: `0x0712aCC33dfe9883D93f131156A7511A09F5284B`. Its encrypted keystore was recovered and its signing ability verified locally. Its private key is not stored in the default project configuration or this repository.
 
-The same old address still held all four roles and governance on the legacy application's separate access-control deployment. That deployment must not be represented as remediated. No roles, funds, registry ownership or contracts were changed during this housekeeping task. The checked remaining native Sepolia balance was 0.000022951579014 ETH; token balances, model ownership and other chains were not comprehensively audited.
+The inspected `PRIVATE_KEY` and `PRIVATE_KEY_B` fields both resolved to `0xEF8a56C4040Bf0E3f2cEC1eBFf244bd77d04d5E1`. A scan of labelled literal private-key assignments across 23 original development commits found this same address, including both fields in three deployment-guide revisions. No distinct secondary address was identified in that scoped scan. This does not assert discovery of all possible keys or unrelated accounts.
 
-The inspected local `PRIVATE_KEY` and `PRIVATE_KEY_B` settings resolved to the same old address. Both named fields in the three historical deployment-guide revisions identified by the earlier exposure report also resolved to that address. This does **not** establish that a distinct secondary wallet, if exposed elsewhere, has been retired. Separate secondary-wallet remediation remains unconfirmed.
+On the two inventoried legacy application deployments (Sepolia 11155111 and BNB testnet 97), ADMIN, REGISTRAR, AUDITOR and MINTER permissions, governance and treasury have moved to the replacement address. All four old permissions are false in the recorded checks. Actual transactions signed by the new account demonstrate its ability to administer the deployments before the old privileges were removed.
 
-The two old signing fields were cleared from the local default configuration after an encrypted backup outside the repository. This prevents future starts from loading those values from that file; it does not remove credentials already loaded in running processes, revoke an EOA private key, or remove on-chain privileges. No process restart or on-chain write is claimed. No replacement key is embedded in published configuration.
+16 of the 42 inventoried models have been migrated. 26 models remain at the old address; draft activation and completion of retirement are not claimed. Consult the block-specific checks before describing remediation as complete.
 
-Public addresses, block-specific role/balance observations and the scope of inspection are recorded in [wallet inspection](docs/bcra_revision/sepolia_20261027/followup_20261028/evidence/wallet_remediation_inspection_20261028.json). The inspection occurred before the local configuration fields were cleared; its `configured` values describe that earlier observation.
+The [inventory](docs/bcra_revision/sepolia_20261027/operational_20261029/wallet_inventory.json) and [transaction journal](docs/bcra_revision/sepolia_20261027/operational_20261029/wallet_migration.json) identify contracts, transaction hashes and block-specific postconditions. Native balances are recorded there. This scope covers known project deployments and their registry/NFT assets, not every token or unrelated chain. An externally owned account's private key cannot be revoked cryptographically; remediation removes its relevant powers and assets.
 
-Remaining operational work is to retire or migrate the legacy application's privileges using an appropriate replacement account, identify and remediate any separately exposed secondary wallet, check relevant assets/ownership on networks actually used, and confirm whole-key Infura deletion. Full remediation is not asserted by this release.
+The August frozen-campaign and October experimental deployments already gave the old address none of the four inspected roles and no governance authority. Their measured transactions and datasets were not modified by this operational migration. Historical observations in the October 28 inspection remain preserved as dated evidence.
+
+The old local signing fields remain cleared. No server restart or production deployment is claimed. Use a protected local signer for any future operation; do not restore the exposed credentials.
