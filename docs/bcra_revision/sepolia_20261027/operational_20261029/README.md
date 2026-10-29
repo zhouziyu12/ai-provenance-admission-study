@@ -6,6 +6,6 @@ This directory records credential probes and legacy testnet wallet migration on 
 - `wallet_inventory.json`: scoped original-history key-address identification and known deployment/asset inventory.
 - `wallet_migration.json`: confirmed operational transactions and block-specific role, ownership and balance checks.
 
-16 of the 42 inventoried models have been migrated. 26 models remain at the old address; draft activation and completion of retirement are not claimed. Consult the block-specific checks before describing remediation as complete.
+All 42 inventoried models (34 on Sepolia and 8 on BNB testnet) and the one Sepolia test NFT are owned by the replacement address. The 26 Sepolia draft models were activated with the account owner's explicit approval because the deployed registry requires ACTIVE status for transfer. The old address is blacklisted on both legacy access-control contracts, its four roles are revoked, and read-only attempts to regrant its ADMIN role are rejected. Its native balance is zero on both inventoried testnets after transfer to the replacement wallet. These are operational remediation transactions, not additional research measurements.
 
 See the root SECURITY_STATUS.md for the current interpretation and limits.

@@ -57,4 +57,4 @@ Keep October-only cost comparisons separate from August. The EIP-712 runtime byt
 
 ## Version and citation
 
-Reviewer snapshot: `v1.0.0`. See [release notes](RELEASE_NOTES.md), [citation metadata](CITATION.cff) and [archiving status](ARCHIVING.md). Archived on Zenodo: [10.5281/zenodo.23754155](https://doi.org/10.5281/zenodo.23754155). The DOI identifies the immutable `v1.0.0` tag; later citation-only commits on `main` do not replace that snapshot. The archive is a research snapshot; legacy wallet remediation remains separate from experimental reproducibility.
+Reviewer snapshot: `v1.0.1`. See [release notes](RELEASE_NOTES.md), [citation metadata](CITATION.cff) and [archiving status](ARCHIVING.md). This version completes the separately recorded legacy-wallet migration; all measured research data remain unchanged. The preceding `v1.0.0` archive remains available at https://doi.org/10.5281/zenodo.23754155. The new version's DOI is pending automatic ingestion at tag creation and will be recorded on `main` after verification.
